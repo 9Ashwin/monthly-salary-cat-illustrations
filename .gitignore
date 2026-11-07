@@ -4,6 +4,6 @@ __pycache__/
 *.pyc
 work/
 .venv/
-# Original third-party pet art is a local reference, not a bundled asset.
+# Local scratch copies; the original character-reference.webp is tracked.
 skills/monthly-salary-cat-illustrations/assets/character-reference.png
 skills/monthly-salary-cat-illustrations/assets/source/

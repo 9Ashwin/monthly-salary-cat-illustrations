@@ -4,11 +4,11 @@
   "review_date": "2026-11-07",
   "scope": "These are concrete example runs, not a statistical benchmark or a guarantee of future image quality. Visual reviews are qualitative; no automatic OCR or exact whitespace measurement was used.",
   "current_skill_text_sha256_at_validation": {
-    "skills/monthly-salary-cat-illustrations/NOTICE.md": "9e24ee3798059634ea9984abad1cffd91805db17612d170595404c657165d985",
-    "skills/monthly-salary-cat-illustrations/SKILL.md": "9e4a1e7015bc302886d2c34ba4d3c073ff0c97f891faed92756a8ae731eb8095",
+    "skills/monthly-salary-cat-illustrations/NOTICE.md": "48e2a1535cb1ac46b368bd93351cd6b74eb227090c79e7d7a4c74065e28d42d5",
+    "skills/monthly-salary-cat-illustrations/SKILL.md": "f4d48a18fc248e786915437a9bec138825c558e4e36bdaf33fb4e9ac37354147",
     "skills/monthly-salary-cat-illustrations/agents/openai.yaml": "97200d978ddd3bd859a5ccd67b708e5608ac1fdf911509d404027b4be557db7b",
     "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "68321ac6003dee963015f0701a7778f2d2bee40fc82f76ef316af9bf6037e478",
-    "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "8fcb83f4f51801a03f3469e1a2ba4e8ca92482bec592d2ed1bc871c78358af8b",
+    "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "a3a5d406f4c95e832cc7245084790a10ad926ca6f2d5ec77b4e0b39934e85a00",
     "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "84984fd357f618857d624aa453730cefe1bb1504971bccdcffc0e634a8378daa",
     "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "94a9f6409eaa24ad402f2c6db3da518708aeece8768b1f216c8df121b03c4e31",
     "skills/monthly-salary-cat-illustrations/references/style-dna.md": "a4561053773ffca6c2a27dc61165c97778600eec0a714264386429e6982f42a5"
@@ -976,5 +976,16 @@
       }
     }
   ],
-  "current_skill_validation_scope": "Current text hashes reflect the published package after removing upstream structure images and their runtime dependency. The 14 image runs used the earlier skill; no image generation was rerun after this change. Worker hashes and prompts retain their historical meaning."
+  "current_skill_validation_scope": "Current text hashes reflect the published package after removing upstream structure images and their runtime dependency, and bundling the original character WebP. The 14 image runs used the earlier skill; no image generation was rerun after these changes. Worker hashes and prompts retain their historical meaning.",
+  "bundled_character_reference": {
+    "path": "skills/monthly-salary-cat-illustrations/assets/character-reference.webp",
+    "source_url": "https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp",
+    "sha256": "fc9ee0b926710c8bb6bde6dd462ff5a2db8c67503a9c4994478084e387bb0d95",
+    "bytes": 803066,
+    "dimensions": [
+      1536,
+      2288
+    ],
+    "verification": "Byte-identical to spritesheet.webp from the downloaded original pet package; WebP decoded successfully."
+  }
 }

@@ -10,9 +10,9 @@
 
 ## 月薪喵角色
 
-角色参考为 xiaoyyy 发布的 [monthly-salary-cat-fix](https://codex-pets.net/#/pets/monthly-salary-cat-fix)。[原始精灵图](https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp) 是 1536×2288 的 WebP 栅格图。2026-11-07 核对的下载包包含 `pet.json` 和 `spritesheet.webp`，本项目未取得作者的 SVG 原稿。
+角色参考为 xiaoyyy 发布的 [monthly-salary-cat-fix](https://codex-pets.net/#/pets/monthly-salary-cat-fix)。[原始精灵图](https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp) 是 1536×2288 的 WebP 栅格图，约 0.8 MB，现内置于 [character-reference.webp](skills/monthly-salary-cat-illustrations/assets/character-reference.webp)，正常使用无需额外下载或安装宠物。2026-11-07 核对的下载包包含 `pet.json` 和 `spritesheet.webp`，本项目未取得作者的 SVG 原稿。
 
-发布者身份不代表原角色版权归属。原始素材的再分发许可尚未确认，因此仓库不包含原图、完整动作帧或描摹版；使用时读取公开源或用户提供的参考。MIT 许可不授予对月薪喵角色、名称或第三方原始素材的权利。
+原包未附独立许可文件，发布者身份不代表原角色版权归属。本项目的 MIT 许可适用于技能文本与文档，不授予对月薪喵角色、名称或原始素材的权利。
 
 ## 生成示例
 

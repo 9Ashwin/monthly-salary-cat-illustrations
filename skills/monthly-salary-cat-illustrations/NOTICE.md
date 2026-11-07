@@ -10,7 +10,7 @@
 
 ## 角色与生成示例
 
-角色参考为 xiaoyyy 发布的 [monthly-salary-cat-fix](https://codex-pets.net/#/pets/monthly-salary-cat-fix)，原始素材为 WebP 精灵图。本项目未取得作者的 SVG 原稿。原始素材的再分发许可尚未确认，因此不随 skill 打包；使用时读取公开源或用户提供的参考。
+角色参考为 xiaoyyy 发布的 [monthly-salary-cat-fix](https://codex-pets.net/#/pets/monthly-salary-cat-fix)。约 0.8 MB 的原始 WebP 精灵图已内置于 [assets/character-reference.webp](assets/character-reference.webp)，正常使用无需额外下载或安装宠物。本项目未取得作者的 SVG 原稿。原包未附独立许可文件，本 skill 的 MIT 许可仅适用于技能文本与文档。
 
 `assets/examples/` 中的图片是本项目生成的配图示例，不是原作者发布的宠物动作帧。MIT 许可不授予对第三方角色、名称或原始素材的权利，示例不表示原作者授权或背书。
 

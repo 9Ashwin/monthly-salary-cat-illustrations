@@ -43,13 +43,13 @@ npx skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-c
 npx skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-cat-illustrations -a codex -g
 ```
 
-手动安装时，将整个 `skills/monthly-salary-cat-illustrations/` 目录复制到助手支持的技能目录。包内包含入口、参考资料、示例图、许可证和来源说明。更多安装参数见 [skills 安装工具](https://github.com/vercel-labs/skills)。
+手动安装时，将整个 `skills/monthly-salary-cat-illustrations/` 目录复制到助手支持的技能目录。包内包含入口、角色原图、参考资料、示例图、许可证和来源说明。更多安装参数见 [skills 安装工具](https://github.com/vercel-labs/skills)。
 
 Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖。仓库另附 `.claude-plugin/` 元数据。
 
 </details>
 
-没有图像工具时，skill 可以提供配图规划和提示词，无法直接生成图片。原宠物素材不随安装包分发；使用时读取[公开原图](skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md#先看原型)或用户提供的参考，无需安装宠物。
+安装包已内置约 0.8 MB 的[月薪喵原始 WebP 精灵图](skills/monthly-salary-cat-illustrations/assets/character-reference.webp)，正常使用无需额外下载或安装宠物。没有图像工具时，skill 可以提供配图规划和提示词，无法直接生成图片。
 
 <a id="usage"></a>
 
@@ -131,6 +131,7 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
         ├── agents/openai.yaml
         ├── references/                # 风格、角色、构图、模板、检查
         └── assets/
+            ├── character-reference.webp # 月薪喵原始精灵图
             └── examples/              # 同一组示例，随技能安装
 ```
 
