@@ -22,16 +22,28 @@
 
 ## 开始使用
 
-需要 Node.js 22.20 或更新版本，以及支持参考图生成和图片查看的 AI 助手。在目标项目目录运行：
+本 skill 不绑定模型或 AI 助手。助手需要能加载技能文件、查看图片，并调用已有的、支持参考图输入的生图工具；能加载 skill 不代表生图能力已启用。
+
+**让 Agent 安装**：将下面这段话发给 WorkBuddy、Codex 或其他助手：
+
+```text
+请读取 https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/main/INSTALL.md，
+将 monthly-salary-cat-illustrations 安装到你当前宿主的技能目录，使用非交互方式。
+安装后确认内置角色图和参考文档完整，再使用这个技能完成我接下来的配图请求。
+```
+
+[Agent 安装说明](INSTALL.md)区分 WorkBuddy、CodeBuddy、Codex 等宿主，包含安装参数、直接复制方式和素材核验。
+
+**手动安装**：使用 `npx skills` 需要 Node.js 22.20 或更新版本。在目标项目目录运行：
 
 ```bash
 npx skills add 9Ashwin/monthly-salary-cat-illustrations
 ```
 
-按提示选择助手和安装范围。默认安装到当前项目；只安装给 Codex 时运行：
+按提示选择助手和安装范围。默认安装到当前项目；非交互安装给 Codex 时运行：
 
 ```bash
-npx skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-cat-illustrations -a codex
+npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-cat-illustrations --agent codex --yes --copy
 ```
 
 <details>
@@ -40,7 +52,7 @@ npx skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-c
 为 Codex 全局安装，在任意目录运行：
 
 ```bash
-npx skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-cat-illustrations -a codex -g
+npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-cat-illustrations --agent codex --yes --copy --global
 ```
 
 手动安装时，将整个 `skills/monthly-salary-cat-illustrations/` 目录复制到助手支持的技能目录。包内包含入口、角色原图、参考资料、示例图、许可证和来源说明。更多安装参数见 [skills 安装工具](https://github.com/vercel-labs/skills)。
@@ -49,11 +61,15 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 
 </details>
 
+**WorkBuddy**：优先将上面的安装指令交给 Agent，按 [INSTALL.md](INSTALL.md) 直接复制完整技能目录。也可将 `skills/monthly-salary-cat-illustrations/` 内的文件打包为 ZIP，通过“添加技能 → 上传技能”导入。具体入口见 [WorkBuddy 技能文档](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills)。本项目尚未实测 WorkBuddy 的生图流程。
+
 安装包已内置约 0.8 MB 的[月薪喵原始 WebP 精灵图](skills/monthly-salary-cat-illustrations/assets/character-reference.webp)，正常使用无需额外下载或安装宠物。没有图像工具时，skill 可以提供配图规划和提示词，无法直接生成图片。
 
 <a id="usage"></a>
 
 ## 怎么使用？
+
+按宿主支持的方式选择已安装技能，再提交下列请求；`$技能名` 的调用语法以宿主为准。
 
 生成文章配图：
 
@@ -116,6 +132,7 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 .
 ├── .claude-plugin/                     # 插件元数据
 ├── README.md
+├── INSTALL.md                         # Agent 非交互安装说明
 ├── LICENSE
 ├── NOTICE.md
 ├── evals/                             # 正文任务与验证记录

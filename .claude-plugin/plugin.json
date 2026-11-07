@@ -1,6 +1,6 @@
 {
   "name": "monthly-salary-cat-illustrations",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "按月薪喵原始参考，为中文正文生成包含步骤、分支和反馈的手绘配图。",
   "author": {
     "name": "9Ashwin",

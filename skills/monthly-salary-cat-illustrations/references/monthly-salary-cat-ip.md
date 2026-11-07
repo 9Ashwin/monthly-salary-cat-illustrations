@@ -5,7 +5,7 @@
 原型为 **xiaoyyy 发布的**[月薪喵 monthly-salary-cat-fix](https://codex-pets.net/#/pets/monthly-salary-cat-fix)。默认使用这一版本，不通过同名搜索另找角色。
 
 1. 用户已提供原图时，直接查看并使用。
-2. 否则直接查看并使用内置的 [原始精灵图](../assets/character-reference.webp)。这是 1536×2288 的完整 WebP，正常使用不需要联网获取角色素材，也不要求分帧、安装宠物、登录或添加依赖。
+2. 否则直接查看并使用内置的 [原始精灵图](../assets/character-reference.webp)。这是 1536×2288 的完整 WebP，正常使用不需要联网获取角色素材，也不要求分帧、安装宠物、登录或添加依赖。工具不接受 WebP 时，可用现有图片工具无损转为 PNG，保留原始画面与透明度。
 3. 仅在内置文件缺失或损坏时，从[原始下载地址](https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp)恢复到用户工作区，查看后使用。
 
 内置精灵图保留源文件字节；来源与许可范围见 [NOTICE.md](../NOTICE.md)。`assets/examples/` 中的配图为本项目生成的场景示例，不替代原始角色参考。
