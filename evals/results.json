@@ -1,0 +1,980 @@
+{
+  "skill_name": "monthly-salary-cat-illustrations",
+  "method": "Independent agents received the skill path, article prompt and output location; they formed their own relation sketches and image prompts.",
+  "review_date": "2026-11-07",
+  "scope": "These are concrete example runs, not a statistical benchmark or a guarantee of future image quality. Visual reviews are qualitative; no automatic OCR or exact whitespace measurement was used.",
+  "current_skill_text_sha256_at_validation": {
+    "skills/monthly-salary-cat-illustrations/NOTICE.md": "9e24ee3798059634ea9984abad1cffd91805db17612d170595404c657165d985",
+    "skills/monthly-salary-cat-illustrations/SKILL.md": "9e4a1e7015bc302886d2c34ba4d3c073ff0c97f891faed92756a8ae731eb8095",
+    "skills/monthly-salary-cat-illustrations/agents/openai.yaml": "97200d978ddd3bd859a5ccd67b708e5608ac1fdf911509d404027b4be557db7b",
+    "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "68321ac6003dee963015f0701a7778f2d2bee40fc82f76ef316af9bf6037e478",
+    "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "8fcb83f4f51801a03f3469e1a2ba4e8ca92482bec592d2ed1bc871c78358af8b",
+    "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "84984fd357f618857d624aa453730cefe1bb1504971bccdcffc0e634a8378daa",
+    "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "94a9f6409eaa24ad402f2c6db3da518708aeece8768b1f216c8df121b03c4e31",
+    "skills/monthly-salary-cat-illustrations/references/style-dna.md": "a4561053773ffca6c2a27dc61165c97778600eec0a714264386429e6982f42a5"
+  },
+  "examples": [
+    {
+      "id": 1,
+      "name": "01-two-breakpoints",
+      "image": "examples/images/01-two-breakpoints.png",
+      "user_prompt_sha256": "f3061be779d54707a891f24cc45d19ad963e13464e8b08bc54017c03b7418813",
+      "image_sha256": "d293e176ab192db7a5e25304b7cd993121b7847be79563e6ecf1b4dcad5e6620",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 2,
+      "prompt_record": "examples/prompts.md#01-two-breakpoints",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/NOTICE.md": "6e8c092fc5c427e8c710b44ffc45bfca435a344904b17e372e837746f342231b",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17",
+        "skills/monthly-salary-cat-illustrations/assets/structure-references/02-minimum-loop.png": "586bc88af928ca57fcd43c17f4e4566ee891967fb9a4ff5ed0e2455078618029"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "把写前的材料收集和写后的承接两处断点接通，才有连续内容路径。",
+        "stages": [
+          "零散观察与经验卡片进入收集篮",
+          "整理入可随手抽取的素材柜",
+          "从柜中抽卡进入写作台，形成文章",
+          "把文章的末端连接到明确的下一步入口"
+        ],
+        "edges": [
+          "观察与经验→收集篮→素材库",
+          "素材库→写作台→文章",
+          "文章→承接坡道→行动入口"
+        ],
+        "cats": [
+          "左猫把散卡扫入收集篮并扣紧收集篮与素材柜的接头",
+          "中猫从柜取卡并在写作台加工成一张文章",
+          "右猫扣紧文章终端通向行动入口的连接板"
+        ],
+        "labels": [
+          "观察与经验",
+          "持续收集",
+          "素材库",
+          "写作产出",
+          "明确承接",
+          "下一步入口",
+          "写前断点",
+          "写后断点"
+        ]
+      },
+      "executor_visual_review": {
+        "initial": "两个断点与完整流向均可追踪，八处文字准确；主体过薄、上下留白过多，因此局部编辑版式。",
+        "final": "通过。最终源→收集→素材库→写作文章→承接桥→入口连续可追踪，红标分别指向写前接头、写后桥；三猫分别收集、写作、连接。小三角耳、锯齿颊、奶白额心、蓝色简练眼、短身短爪保留。短横闭眼姿态与原型兼容；横向主体已扩展至画布中心大部分高度，中文准确，无多余标题。",
+        "limitations": "猫的操作为重新绘制的场景动作，不是原始帧的直接复制。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 2,
+      "name": "02-minimum-loop",
+      "image": "examples/images/02-minimum-loop.png",
+      "user_prompt_sha256": "97dd2beacbe85a403e4f3d41023446bbdf2396039a5f1460d5a4926c9f652673",
+      "image_sha256": "388ee5726b2522e924018b064eb0d8dd92666ec5c11e79c64ad00389e42e149d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#02-minimum-loop",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "For initial cases 02 and 03, hashes were observed after the run; the first-read version is not asserted.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "三类材料共同判断，选择形式后发布并连接行动，新问题和反馈回到信息端影响下一轮。",
+        "functional_stages": [
+          "三类来源汇合",
+          "共同判断",
+          "选择形式",
+          "发布内容",
+          "行动入口"
+        ],
+        "connections": [
+          "外部信息→汇合盘",
+          "内部经验→汇合盘",
+          "用户反馈→汇合盘",
+          "汇合盘→汇合判断",
+          "汇合判断→选择形式",
+          "选择形式→发布内容",
+          "发布内容→行动入口",
+          "行动入口→新问题与反馈→用户反馈输入→下一轮判断"
+        ],
+        "cat_actions": [
+          "第一只猫拨动判断桌闸杆，将共同输入材料中的一页送往选模转盘",
+          "第二只猫从行动入口把新问题纸条夹上回程夹绳"
+        ],
+        "labels": [
+          "外部信息",
+          "内部经验",
+          "用户反馈",
+          "汇合判断",
+          "选择形式",
+          "发布内容",
+          "行动入口",
+          "新问题与反馈"
+        ],
+        "reference_roles": {
+          "original": "公开原始精灵图锁定角色",
+          "structure": "上游02图只校准结构密度，不复制其机器和门"
+        }
+      },
+      "executor_visual_review": {
+        "result": "可交付，无需修正",
+        "character": "白棕色块、额心奶白三角、小三角耳、短平头顶、锯齿颊毛、蓝色短竖眼、深棕小横嘴均可辨。两猫短爪操作装置，没有高光大眼或W嘴。身体部分被工作桌遮挡，不能完整核对无遮挡站姿头身比例，但可见部分没有出现巨头小圆身。",
+        "structure": "外部信息、内部经验、用户反馈的三条橙色箭头汇入同一材料盘；接续到汇合判断、选择形式、发布内容、行动入口。转盘只选出一个形式。主线方向明确且逐段可追踪。",
+        "feedback": "蓝色虚线从行动入口的新问题纸条向下，再沿底部向左、向上返回用户反馈输入。回流箭头落点明确，随后可通过既有输入箭头再次进入共同判断。",
+        "interaction": "第一只猫拉动判断杆，第二只猫在行动入口将问号纸条夹上回程绳；两猫都有功能性动作。",
+        "layout_and_text": "横版白底，深棕轮廓、奶白奶茶棕主体，橙色主线与蓝色回流一致。主体位于画布中心并使用大部分横向空间，没有固定留空上半幅或挤在底部。8处中文均准确可读，无海报大标题或额外口号。",
+        "reference_use": "采用开放式木工坊、选模转盘、发布晾绳和回程夹绳，没有复制结构参考的黑猫、巨大机器和门。",
+        "review_scope": "实际查看原始精灵图、上游结构参考与本次生成图后进行人工视觉检查。",
+        "revisions_needed": false
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 3,
+      "name": "03-sort-by-purpose",
+      "image": "examples/images/03-sort-by-purpose.png",
+      "user_prompt_sha256": "f3546fb3cb4ac784b3edf212d1308f8f23cd62e389acb227533ccac6dcc690d1",
+      "image_sha256": "5ba9fdb658193c4293023b0cc63a9641d11beddf77e7cec583f4f9a332314527",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#03-sort-by-purpose",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "For initial cases 02 and 03, hashes were observed after the run; the first-read version is not asserted.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "核心观点": "同一批来源各异的材料先汇合，经过用途判断，再分流到三种内容生产位置。",
+        "功能环节": [
+          "三类来源：外部信号、自己的经验、用户问题分别装入浅篮，经短轨道汇合为同一材料流。",
+          "共同用途判断台：猫查看材料并拨动三向分流杆，决定材料承担的任务。",
+          "上支路生产位置：把材料用于让陌生人看见你的内容，工作台放着带简易眼睛符号的展开纸张。",
+          "中支路生产位置：把材料用于帮助读者建立信任的内容，工作台放着证据页和核对勾。",
+          "下支路生产位置：把材料用于已认可者采取下一步行动的内容，工作台放着一步箭头入口卡。"
+        ],
+        "连接关系": [
+          "外部信号篮 → 同一材料汇入轨道 → 用途判断台",
+          "自己的经验篮 → 同一材料汇入轨道 → 用途判断台",
+          "用户问题篮 → 同一材料汇入轨道 → 用途判断台",
+          "用途判断台 → 上支路 → 让人看见生产台",
+          "用途判断台 → 中支路 → 建立信任生产台",
+          "用途判断台 → 下支路 → 下一步行动生产台"
+        ],
+        "猫的操作": "一只月薪喵站在中央分流台旁，短爪直接握住连接三向道岔的拨杆，另一爪检视入口处材料。拨杆与分岔机构直接连接，可见其操作改变纸张去向。",
+        "必要标注": [
+          "外部信号",
+          "自己的经验",
+          "用户问题",
+          "判断用途",
+          "让人看见",
+          "建立信任",
+          "下一步行动"
+        ],
+        "反馈": "无。原文不包含反馈，不添加。"
+      },
+      "executor_visual_review": {
+        "status": "passed",
+        "reviewed_against": [
+          "原始月薪喵精灵图",
+          "本次关系草案",
+          "references/qa-checklist.md"
+        ],
+        "角色": "保留奶白/奶茶棕色块、额心白色窄三角、小三角耳、较平的短头顶、明显锯齿颊毛、小蓝短竖眼、短横嘴、短方身体与短毛束尾巴；站姿头身可见高度接近，短爪无多余手指。",
+        "结构": "三类来源的轨道明确汇合到中央共同入口，材料先经过用途判断台，再从该台分向右侧三处内容生产台；不存在来源与用途直接一一配对。橙色箭头朝向正确，纸张帮助追踪流动，无正文未要求的回路。",
+        "交互": "猫一爪检视材料，另一爪接触连接道岔的拨杆；猫的动作参与判断与分流，非旁站装饰。",
+        "文字": "7处中文均准确可读：外部信号、自己的经验、用户问题、判断用途、让人看见、建立信任、下一步行动。无海报标题或额外口号。",
+        "版式": "16:9近似比例横版、纯白背景，主体在画布中央利用大部分横向空间，上下留白较多但不在底角；轨道与三处实体写作台承担关系，无PPT矩形框堆叠。",
+        "修正": "未发现需要重生成的明显身份、关系或文字问题。本次1次生成，无编辑。",
+        "限制": "这是单次人工视觉检查，未进行自动OCR或精确留白面积测量。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 4,
+      "name": "04-one-source-many-uses",
+      "image": "examples/images/04-one-source-many-uses.png",
+      "user_prompt_sha256": "7849876635a27d1bccb6c64861dc42cca669cfecd4555df6fac9788b0a71d6a9",
+      "image_sha256": "a49ea97872654ce2a47dfe46248b5159696eb096ce269e54643287127cb23be2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#04-one-source-many-uses",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/NOTICE.md": "6e8c092fc5c427e8c710b44ffc45bfca435a344904b17e372e837746f342231b",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17",
+        "skills/monthly-salary-cat-illustrations/assets/structure-references/03-sort-by-purpose.png": "e23e7974b03d9540662728cc343d57aec8339c37db8ca0eae922e4f0cfdd8980"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "同一份真实项目复盘按不同重点拆成三类可用内容，而非同文缩短。",
+        "stages": [
+          "同一本项目复盘含失误、解决证据、验证做法三类页签",
+          "分拣台按重点抽取对应材料",
+          "三条轨道分别产出短帖、长文、勾选清单"
+        ],
+        "edges": [
+          "项目复盘→重点选择台",
+          "失误页→短帖→共鸣",
+          "证据页→长文→信任",
+          "验证做法页→清单→可用"
+        ],
+        "cats": [
+          "中央猫从复盘活页夹中抽出失误卡并放进上层短帖槽，另外两类卡沿中下轨道加工输出"
+        ],
+        "labels": [
+          "项目复盘",
+          "选取重点",
+          "具体失误",
+          "解决证据",
+          "验证做法",
+          "短帖·共鸣",
+          "长文·信任",
+          "清单·可用"
+        ]
+      },
+      "executor_visual_review": {
+        "final": "通过。唯一复盘输入可见三种原始页图标，三槽抽取失误、证据、已验证做法，分别输出短帖、折页长文与可勾选清单；相同图标在相应成品重现，避免机械缩短。猫正在将失误卡放入上槽，眼、额心、锯齿颊与短身原型可辨；爪向上抬的场景动作不带人类手指。八处中文准确，中央主体充分利用横向与高度，白底、无总标题。",
+        "limitations": "图标用于表示材料类型，未补造正文之外的数字或真实项目结论。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 5,
+      "name": "05-handoff-path",
+      "image": "examples/images/05-handoff-path.png",
+      "user_prompt_sha256": "cf69d40a05c37e8c3e86110d2542112d41ede04c2c2d97ca599c873046659bbe",
+      "image_sha256": "f311bc523d888cefffdb91592dd8cfb9f13632f258d3d78a84f1dbea8ab3acf2",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#05-handoff-path",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "读者兴趣要沿文章、案例、清楚介绍、低门槛行动入口连续承接，连接缺失会中断。",
+        "stages": [
+          "文章产生兴趣",
+          "案例进一步理解",
+          "介绍适合谁与解决什么",
+          "低门槛行动"
+        ],
+        "arrows": [
+          "文章→案例",
+          "案例→服务介绍",
+          "服务介绍→低门槛入口"
+        ],
+        "breakpoint": "案例到介绍的桥接处标出连接必要性；猫正在扣紧桥板，连通主线，短红色引线注明断开即中止。",
+        "cats": [
+          "读者猫翻看文章并沿路径前进",
+          "操作者猫扣紧案例和介绍间的桥板"
+        ],
+        "labels": [
+          "文章",
+          "产生兴趣",
+          "案例",
+          "服务介绍",
+          "适合谁",
+          "解决什么",
+          "低门槛入口",
+          "断开即中止"
+        ]
+      },
+      "executor_visual_review": {
+        "result": "可交付",
+        "character": "短三角耳、锯齿颊毛、奶白中央脸部色块、小蓝眼与极小横嘴可辨；左猫站姿身体短且略方，右猫蹲姿完成搭扣操作。",
+        "structure": "文章、案例、服务介绍、低门槛行动入口按左至右相连；适合谁与解决什么均清楚写在介绍上。案例至介绍通过实体桥板与搭扣表达连接，该处未另画橙色箭头，但连续步道与其他向右箭头使阅读方向明确。",
+        "interaction": "读者猫翻阅文章；操作者猫扣紧案例至介绍之间的搭扣。断开即中止的红色引线落在接缝处。",
+        "text": "8处中文准确，没有多余大标题。",
+        "layout": "横向连贯的木步道使用大部分画布宽度，主体居中，白底与棕色手绘一致。",
+        "revisions_needed": false
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 6,
+      "name": "06-three-sources",
+      "image": "examples/images/06-three-sources.png",
+      "user_prompt_sha256": "684bf4d325d2fc2a0aaf16f5b8a6a32f875314bc9426d2e8b3c4b0a648f52d37",
+      "image_sha256": "6b7f1495429f21b6bef25e71f90b30348ced38201250296885b3637cbfeabcce",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#06-three-sources",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "核心观点": "三个信息来源一起核对，只有同时相关、有证据、有人需要的材料才保留为选题。",
+        "功能环节": [
+          "外部信息、项目经验、用户反馈三只浅篮，各有独立进料槽。",
+          "三条进料槽汇入中央核对台，猫同时检查来源各异的材料。",
+          "同一张待选材料的三个检查条件必须全部成立，才打开单一出料闸门。",
+          "通过检查的纸张进入右侧保留选题筐；不符条件的纸张留在台上。"
+        ],
+        "连接关系": [
+          "外部信息 → 共同核对台",
+          "项目经验 → 共同核对台",
+          "用户反馈 → 共同核对台",
+          "共同核对台 → 三项都满足的单一闸门 → 保留选题筐"
+        ],
+        "猫的操作": "猫在中央检查台用一短爪对照三类材料，另一短爪操作带三个检查刻度的闸门，决定放行。",
+        "必要标注": [
+          "外部信息",
+          "项目经验",
+          "用户反馈",
+          "三项都满足",
+          "相关",
+          "有证据",
+          "有人需要",
+          "保留选题"
+        ],
+        "反馈": "无。"
+      },
+      "executor_visual_review": {
+        "status": "passed",
+        "角色": "原型的小三角耳、短平顶、锯齿颊毛、额心白色三角、蓝色短眼、小横嘴与短爪可辨，身体下部被核对台遮挡，未见多余肢体。",
+        "结构": "三个输入明确汇合到同一工作台，三个条件位于单一闸门，均有勾，输出为右侧保留选题筐；没有错误的三路任选分支。",
+        "交互": "猫一爪核对材料、一爪操作闸门手柄，处在判断步骤。",
+        "文字": "8处标签正确清楚：外部信息、项目经验、用户反馈、三项都满足、相关、有证据、有人需要、保留选题。",
+        "版式": "纯白横版，主结构居中占大部分宽度，实体核对台和闸门承担信息结构。",
+        "修正": "无需编辑；1次生成。",
+        "限制": "人工视觉检查，未精确测量留白比例；猫下半身与部分内部通道被实体工作台遮挡。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 7,
+      "name": "07-three-content-jobs",
+      "image": "examples/images/07-three-content-jobs.png",
+      "user_prompt_sha256": "1e880d7b2dca0be0c8506eb364f30cc40b78fd3158f5628c404af68bfd46d86d",
+      "image_sha256": "ac02563bda916c51c60e1e710a76174c45c309a68f20967ab4f15338ee0b356a",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 2,
+      "prompt_record": "examples/prompts.md#07-three-content-jobs",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/NOTICE.md": "6e8c092fc5c427e8c710b44ffc45bfca435a344904b17e372e837746f342231b",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17",
+        "skills/monthly-salary-cat-illustrations/assets/structure-references/02-minimum-loop.png": "586bc88af928ca57fcd43c17f4e4566ee891967fb9a4ff5ed0e2455078618029"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "拉新、信任、行动内容分别承担停留、证据核验、下一步入口，顺序承接且功能不同。",
+        "stages": [
+          "拉新台将有兴趣的读者吸引到阅读路径",
+          "信任检验台拿出过程与结果可核验证据",
+          "行动台提供清楚的入口让读者继续操作"
+        ],
+        "edges": [
+          "拉新内容→愿意停留",
+          "愿意停留→信任证据核验→认可",
+          "认可→行动内容→下一步入口"
+        ],
+        "cats": [
+          "左猫转动展示架展示短内容，使读者小车停在起点",
+          "中猫将过程卡和结果凭据送到放大镜下供核验",
+          "右猫放下入口踏板并拉开门闸，承接读者"
+        ],
+        "labels": [
+          "拉新内容",
+          "愿意停留",
+          "信任内容",
+          "可验证证据",
+          "行动内容",
+          "下一步入口",
+          "缺证据会流失",
+          "缺入口会停住"
+        ]
+      },
+      "executor_visual_review": {
+        "initial": "三站及八处标注准确，读者木车经过吸引、证据和入口的连续路径清楚；三猫尾巴误为光滑圆卷尾，发起局部修正。",
+        "final": "通过。三只尾巴已改为短毛束带浅色末端，保留锯齿颊、蓝色短竖眼与近似等高的短身。左猫转展示架、中猫递核验卡、右猫开入口；主线连续，无证据和无入口的两条风险指向对应位置，非伪分支。中文八处准确，白底，空间较均衡，三种装置用途可区分。",
+        "limitations": "三个站点的中文以小木牌标识功能；没有另加总标题。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 8,
+      "name": "08-reusable-toolbox",
+      "image": "examples/images/08-reusable-toolbox.png",
+      "user_prompt_sha256": "05fca9aed0de3066a176784ffb7902f574aa281a2674daf4cb0545e30fa98f2a",
+      "image_sha256": "db6e787b9e87d654179c6a5dd6e007800e294705a686fd447cf8523f3cb80949",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 2,
+      "prompt_record": "examples/prompts.md#08-reusable-toolbox",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "重复回答通过记录、检索、情境调整、发出与反馈回库，累积为可复用资料。",
+        "stages": [
+          "重复问题记录入库",
+          "从案例说明清单选取材料",
+          "按当前情境调整",
+          "发出回答",
+          "追问和例外回库"
+        ],
+        "arrows": [
+          "重复问题→记录入库→资料库",
+          "资料库→选取材料→按情境调整",
+          "按情境调整→发出回答",
+          "发出回答→追问与例外→资料库"
+        ],
+        "cats": [
+          "第一只猫拉开资料柜抽屉取出相应材料",
+          "第二只猫在修改台按情境替换材料局部再送出"
+        ],
+        "labels": [
+          "重复问题",
+          "记录入库",
+          "资料库",
+          "案例·说明·清单",
+          "选取材料",
+          "按情境调整",
+          "发出回答",
+          "追问与例外"
+        ]
+      },
+      "executor_visual_review": {
+        "result": "针对角色局部修正后可交付",
+        "initial_issue": "首版两只猫出现通用水平胡须和圆滑脸颊，左猫尾巴偏长且光滑。",
+        "correction": "第二次原生图像调用直接编辑首版并重新引用原始精灵图，只修正脸颊锯齿轮廓和短毛束尾巴；其余装置、动作、文字与连线保留。",
+        "character": "最终图两猫的锯齿颊毛、小三角耳、较平头顶、奶白额心三角、小蓝眼、短横嘴与短爪可辨，左猫尾巴已为短毛束，头身没有巨头小圆身问题。",
+        "structure": "重复问题进入记录簿并入资料库；案例、说明、清单可见；选取的材料经按情境调整后发出回答。橙色主线连续。",
+        "feedback": "发出回答后的追问与例外以蓝色虚线回到资料柜底部抽屉，箭头尖在抽屉内，能够再次进入复用过程。",
+        "interaction": "左猫拿出选定材料，右猫按情境对答案局部调整，两猫均执行关键操作。",
+        "text_and_layout": "8处中文正确；白底横向主线居中，反馈在下方，未复制上游机器布局。",
+        "revisions_needed": false
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 9,
+      "name": "09-common-pits",
+      "image": "examples/images/09-common-pits.png",
+      "user_prompt_sha256": "f06f3ddc673a4e2b86d264040a9020ce0398c71b72a2730fb3971ef8cee9f352",
+      "image_sha256": "6dbc4fb11882a313df280a9918a852ba6ed083442990fc6d303987816662f776",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 2,
+      "prompt_record": "examples/prompts.md#09-common-pits",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "核心观点": "内容链路的三个断点分别发生在输入、发布后的承接、反馈回收，必须修补对应连接。",
+        "功能环节": [
+          "材料库向写作发布台提供材料；入口连接断裂。",
+          "写作发布台向读者的承接入口交接内容；发布后连接断裂。",
+          "承接入口下方收集读者反馈。",
+          "反馈沿回程传信绳回到材料库；回程绳中段断裂。"
+        ],
+        "连接关系": [
+          "材料库 → 输入断点 → 写作发布",
+          "写作发布 → 承接断点 → 承接入口",
+          "承接入口 → 读者反馈",
+          "读者反馈 → 回收断点 → 材料库"
+        ],
+        "猫的操作": "三只同型月薪喵各修一处：第一只将短轨段对准输入缺口，第二只将接力轨两端拼合，第三只把回程绳两端接起来；三处断点尚可见，不画成早已全通。",
+        "必要标注": [
+          "材料库",
+          "写作发布",
+          "承接入口",
+          "读者反馈",
+          "输入断了",
+          "承接断了",
+          "回收断了"
+        ],
+        "反馈": "从承接入口产生的读者反馈沿底部回程绳回到材料库，左向蓝色虚线箭头指明方向，断口在回程中段。"
+      },
+      "executor_visual_review": {
+        "status": "passed_after_targeted_edit",
+        "角色": "四只同型猫保留小三角耳、较平顶部、锯齿颊毛、额心白色三角、小蓝短眼、短方体态。三只维修，另有一只在发布台操作电脑，额外角色也承担功能。",
+        "结构": "输入与承接滑轨各有明确断口；读者反馈从右端沿底部回收线返回材料库，方向正确。回收断口经一次针对编辑后，猫两爪之间留有白色缺口及两个未接上的端头，不再有连贯蓝线穿过。",
+        "交互": "左猫举短轨段补输入，右猫持两段轨道修承接，底猫持回程绳断端修回收；发布台猫正在工作。",
+        "文字": "7处标注正确：材料库、写作发布、承接入口、读者反馈、输入断了、承接断了、回收断了。",
+        "版式": "纯白横版，主线横向铺开，回程从右经底部回到左端，三个断点位于同一链路。",
+        "修正": "初稿回收绳近似已接通，第二次工具调用只编辑底部断端；其余结构文字保留。",
+        "限制": "人工视觉检查；回收断口比上方两个断口小，但位于猫两爪之间并有红色标签，可辨认。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 10,
+      "name": "10-information-well",
+      "image": "examples/images/10-information-well.png",
+      "user_prompt_sha256": "661224acad0de34a58ccd0cd76f2ff424941fdcc8d7aaf0fd9166513e4318091",
+      "image_sha256": "85cf0ca339e39ff7a4a8efd8ccef33b52293b8ae3041ae6855531b0d0f4755c6",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 2,
+      "prompt_record": "examples/prompts.md#10-information-well",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/NOTICE.md": "6e8c092fc5c427e8c710b44ffc45bfca435a344904b17e372e837746f342231b",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17",
+        "skills/monthly-salary-cat-illustrations/assets/structure-references/02-minimum-loop.png": "586bc88af928ca57fcd43c17f4e4566ee891967fb9a4ff5ed0e2455078618029"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": "共享文本沿用首次读取并在案例1记录的SHA256；执行期间仓库文风可能更新，未重新读取或切换规则。结构图按本案例实际查看版本记录。",
+      "relation_sketch": {
+        "core": "固定来源持续汇入并沉淀为可查主题，按当前问题提取，使用后的新发现回池形成稳定输入循环。",
+        "stages": [
+          "小桶偶尔捞到少量零散卡作为对比",
+          "固定来源通过纸卡管道持续流入记录池",
+          "池中有序主题隔片让杂卡变得可找",
+          "按当前问题调出口闸门只提取相关卡",
+          "右侧使用台产生新发现并回到记录池"
+        ],
+        "edges": [
+          "固定来源→记录池→主题沉淀",
+          "主题沉淀→按问题提取→使用",
+          "使用产生的新发现→记录池"
+        ],
+        "cats": [
+          "中右猫对照问号问题卡，转动抽取闸门，取出相关主题卡",
+          "右猫使用资料后，把新发现卡放进回池滑槽"
+        ],
+        "labels": [
+          "偶尔搜热点",
+          "固定来源",
+          "持续流入",
+          "记录池",
+          "主题沉淀",
+          "按问题提取",
+          "使用",
+          "新发现回池"
+        ]
+      },
+      "executor_visual_review": {
+        "initial": "稳定来源、池内主题分类、问题选择阀、使用与回池全部完整，八处中文准确。角色尾巴偏卷、嘴呈微W，转阀门爪过长，因此局部修正角色。",
+        "final": "通过。小桶对比偶尔搜索与固定来源的持续汇入；橙主线从来源到记录池与主题分类，再按问题开单一出口到使用台。蓝色虚线从使用台新发现卡经下方管道向左、向上进入池内，方向与落点明确。猫尾巴已改成短锯齿毛束，小横嘴与短爪修正；角色操作直接控制提取与回收。八处文字准确，纯白横版，布局中央展开。",
+        "limitations": "小蓝横眼属于原型闭眼姿态变体；池内主题以图标表示，未添加具体行业结论。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 11,
+      "name": "11-idea-press",
+      "image": "examples/images/11-idea-press.png",
+      "user_prompt_sha256": "1b88da459ab01d9f4ab7fb4eb4af978f6a8f1bb85100cf649903dbdafbb9e48c",
+      "image_sha256": "46d3591ad58a1bdda53c6f64102c7c1203b88ce16cb70a108d436f2a30bb5d9d",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#11-idea-press",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "观点经过相关证据筛选、冲突比较和自主判断形成，再选择读者切口写出。",
+        "stages": [
+          "观察素材按当前问题筛选证据",
+          "比较证据冲突",
+          "形成自己的判断",
+          "选择读者理解的切口",
+          "写成内容"
+        ],
+        "arrows": [
+          "观察素材→问题筛选台",
+          "相关证据→比较冲突桌",
+          "比较冲突→形成判断",
+          "形成判断→读者切口",
+          "读者切口→写成内容"
+        ],
+        "cats": [
+          "猫在比较桌并排核对两张呈现冲突的证据页，短爪操作对齐夹与判断记录"
+        ],
+        "labels": [
+          "观察素材",
+          "当前问题",
+          "筛选证据",
+          "比较冲突",
+          "形成判断",
+          "读者切口",
+          "写成内容"
+        ]
+      },
+      "executor_visual_review": {
+        "result": "可交付，无需修正",
+        "character": "小三角耳、短平头顶、锯齿颊毛、中央奶白色块、蓝色短竖眼、微小横嘴与短毛束尾巴均可辨。猫体部分被比较板遮挡，可见部分没有巨头小圆身。",
+        "structure": "观察素材先经当前问题限定下的证据筛选，不相关材料留在筛架下；选中材料到比较桌。两份一升一降的证据体现冲突，比较后形成独立判断，再经取景框选择切口，最后写成内容。所有主线箭头向右且起止明确。",
+        "interaction": "月薪喵实际扶住并对照两份冲突证据，关键判断操作处于主线中间。",
+        "text_and_layout": "7处中文准确，筛选、比较、形成判断、读者切口互不混淆；纯白横版，整条物件流程居中，使用大部分横向空间。没有复制上游机器或不必要回路。",
+        "revisions_needed": false
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 12,
+      "name": "12-content-fermentation",
+      "image": "examples/images/12-content-fermentation.png",
+      "user_prompt_sha256": "fdf9a8d03a901235731be5b252f8835e310818b94b6a1ab1f3740a568c0be8e9",
+      "image_sha256": "c9e5095ab6097564e9b6736ab8fbe3fb71bd2dc7ebc172298440c240dfe6ca75",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#12-content-fermentation",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "核心观点": "问题记录通过实践结果、反例、读者反馈持续完善成有据判断，讲清后才发布，新反馈再回到完善阶段。",
+        "功能环节": [
+          "左侧保存当天问题为一张简短记录卡。",
+          "中央打开的记录册接收问题卡，并持续接入实践结果、反例、读者反馈三类补充材料。",
+          "记录册中累积证据被核对整理为有据判断，纸夹上可见原始问题和证据页相连。",
+          "经过讲清再发的检查小闸后，整理成发布内容。",
+          "发布后的新反馈沿回程线回到中央记录册，进入下一轮完善。"
+        ],
+        "连接关系": [
+          "问题记录 → 中央记录册",
+          "实践结果 → 中央记录册",
+          "反例 → 中央记录册",
+          "读者反馈 → 中央记录册",
+          "中央记录册 → 有据判断 → 讲清再发检查 → 整理发布",
+          "整理发布 → 新反馈 → 中央记录册"
+        ],
+        "猫的操作": "第一只猫在中央记录册对照补充材料并夹入证据页；第二只猫在讲清再发的小闸旁检查成熟的判断，并拉开闸门将其交给发布台。",
+        "必要标注": [
+          "问题记录",
+          "实践结果",
+          "反例",
+          "读者反馈",
+          "持续补充",
+          "有据判断",
+          "讲清再发",
+          "整理发布",
+          "新反馈"
+        ],
+        "反馈": "从右侧发布产物下方产生的新反馈，经蓝色虚线和回程纸夹绳，真正回到中央正在完善的记录册，不回到发布出口。"
+      },
+      "executor_visual_review": {
+        "status": "passed",
+        "角色": "两只猫的小三角耳、锯齿颊毛、奶白额心和棕色两侧、小蓝短眼、小横嘴、短方身体与短爪可辨。姿态为略侧面，非通用巨头猫。",
+        "结构": "问题记录先进入中央记录册；实践结果、反例、读者反馈三路共同输入；有据判断经过讲清再发的小闸抵达整理发布；新反馈从右下回到中央持续补充的记录台，未错误回到输出。",
+        "交互": "左猫核对反例并插入证据页，右猫操作发布前小闸，均参与关键步骤。",
+        "文字": "9处必要短标注均正确：问题记录、实践结果、反例、读者反馈、持续补充、有据判断、讲清再发、整理发布、新反馈。",
+        "版式": "纯白横版，主线使用大部分横向空间，补充来源位于中央记录册上方，回程在下方；无海报大标题。",
+        "修正": "未发现需要编辑的明显身份、结构或文字问题；1次生成。",
+        "限制": "人工视觉检查；反馈箭头落在中央记录册所处工作台下沿，可识别为持续补充节点，未测量精确留白比例。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 13,
+      "name": "13-system-bearing",
+      "image": "examples/images/13-system-bearing.png",
+      "user_prompt_sha256": "ac26bf488b0139c0a5901d1619b691730a56b5ea2d572eb0ac96fa369078809d",
+      "image_sha256": "c7d7ffac63d46b60cde35af11bd9ae4da57c54944901f014302309a3bcce0120",
+      "dimensions": [
+        1671,
+        941
+      ],
+      "generation_calls": 2,
+      "prompt_record": "examples/prompts.md#13-system-bearing",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/NOTICE.md": "6e8c092fc5c427e8c710b44ffc45bfca435a344904b17e372e837746f342231b",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17",
+        "skills/monthly-salary-cat-illustrations/assets/structure-references/13-system-bearing.png": "bcd26b1f34e5c8d220e2180618ffed448455faebfe32ff9e0904ad33a1ab8603"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": "共享文本沿用首次读取并在案例1记录的SHA256；执行期间仓库文风可能更新，未重新读取或切换规则。结构图按本案例实际查看版本记录。",
+      "relation_sketch": {
+        "core": "同样的重复工作从猫身上转交稳定流程承重，猫保留规则、重要性判断与异常处理。",
+        "states": [
+          "左侧：同一猫必须搬动收集、归档、格式整理、分发四叠工作，身体被压住",
+          "右侧：支撑架和滚轮轨道持续承接同样四种工作，猫只在上方控制规则和重要性闸门，并接住异常卡"
+        ],
+        "stages": [
+          "入料篮收集纸卡",
+          "分隔抽屉归档",
+          "压平对齐工具整理格式",
+          "出料信封槽分发"
+        ],
+        "edges": [
+          "左侧人工全扛→右侧流程承重的对比转移",
+          "收集→归档→格式整理→分发",
+          "规则卡→规则定位栓",
+          "重要性手闸→主轨道与异常支槽",
+          "异常卡→猫的检查托盘"
+        ],
+        "cats": [
+          "左猫被四叠相同类型工作压低，仍试图搬运",
+          "右猫一爪把规则卡插入控制位，一爪调重要性分流杆，旁边可够到的异常托盘接来红角卡"
+        ],
+        "labels": [
+          "收集",
+          "归档",
+          "格式整理",
+          "分发",
+          "流程承接",
+          "设定规则",
+          "判断重要性",
+          "处理异常"
+        ]
+      },
+      "executor_visual_review": {
+        "initial": "前后负担转移、四站顺序和规则/判断操作都已出现；但异常托盘落在地面远离猫，右猫手臂较长，尾巴偏圆润，因此定向编辑。",
+        "final": "通过。左猫被四类托盘压住；右侧相同工作由稳固桌腿和滚轮轨道承接，收集→归档→格式整理→分发连续。规则插槽与判断柄在猫短爪旁；异常卡沿橙色支路上送到猫控制台边的托盘，体现人保留判断与异常。右猫短爪修正，头身与奶白额心、锯齿颊、小蓝眼及小横嘴可辨，尾巴较原稿更短、有尖毛束。八处中文准确，横版白底、无海报总标题。",
+        "limitations": "异常处理以猫控制台收到待查卡表达；未虚构具体异常解决结果或额外回路。"
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    },
+    {
+      "id": 14,
+      "name": "14-trust-bridge",
+      "image": "examples/images/14-trust-bridge.png",
+      "user_prompt_sha256": "4d2a302de7105ddbfa7a1fa7e9e2b447519c6da0397292cc4751ccd70ed53bf3",
+      "image_sha256": "94ea980a7668a714bd5b1bfee4c22ac8891825b4f0ded2bf6458cf4c696e8c4b",
+      "dimensions": [
+        1672,
+        941
+      ],
+      "generation_calls": 1,
+      "prompt_record": "examples/prompts.md#14-trust-bridge",
+      "skill_files_sha256_recorded_by_worker": {
+        "skills/monthly-salary-cat-illustrations/SKILL.md": "38988c7146728d57552ec3906da25a6bb7e25a3a565d2aa7d0ee48d3546d8a42",
+        "skills/monthly-salary-cat-illustrations/references/style-dna.md": "d81d23f6092414c3e5d99a5c23d67a547b89851a5c5b328fbc785aad85fb381c",
+        "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "b855eddf2cb22a35c6b1194280287fa6ec72c1e79ca616cbff31ecd18d43ac60",
+        "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "2be997f1086793df673af345d2ec95042f58c15438bde4910081005a3dc43414",
+        "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "eb137c4f0ff5d90d7d7f9d85e65d257bd10d8323fbdf4909f0bb03b5ca60dc2c",
+        "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "c9efb68e003fe6b1a9cf01ce3be6769f3ce126aa36c460ee935b9cbeb741ce17"
+      },
+      "hash_recording_note": "Recorded by the executing agent.",
+      "worker_version_note": null,
+      "relation_sketch": {
+        "core": "信任由可核对且相互连贯的证据逐步建立，读者能检查关键解释后才进入行动。",
+        "stages": [
+          "可核对经历",
+          "过程与结果",
+          "读者检查证据和关键解释",
+          "逐步信任",
+          "行动入口"
+        ],
+        "arrows": [
+          "可核对经历→过程与结果",
+          "过程与结果→检查证据",
+          "检查证据→逐步信任→行动入口"
+        ],
+        "contrast": "一句承诺的短捷径在左上被红色叉号截住，不直接通往行动。",
+        "cats": [
+          "作者猫把经历与过程结果之间的说明片扣入连接处",
+          "读者猫拿放大镜检查连接说明和证据，再沿连贯展架前进"
+        ],
+        "labels": [
+          "一句承诺",
+          "可核对经历",
+          "过程与结果",
+          "关键解释",
+          "检查证据",
+          "逐步信任",
+          "行动入口"
+        ]
+      },
+      "executor_visual_review": {
+        "result": "可交付，无需修正",
+        "character": "两只猫的小三角耳、平或微凹短头顶、锯齿颊毛、奶白中央三角、小蓝眼与细小横嘴清楚。左猫短略方身体可见，右猫身体下部被检查台遮挡，均有短爪操作。",
+        "structure": "可核对经历通过关键解释连接带接到过程与结果，再接读者检查证据、逐步信任与行动入口。橙色箭头逐段向右，连续实体连接没有跳过解释。左上单一承诺的短红色虚线在叉号前止步，与证据主线区分。",
+        "interaction": "左猫扣合解释纸页形成证据之间的连接；右猫拿放大镜逐项检查过程与结果，检查后才进入信任与行动。",
+        "text_and_layout": "7处中文准确可读，主体使用大部分横向空间且清楚居中。白底、深棕线条、奶白奶茶棕角色一致；没有抄用上游大机器、黑猫或门。",
+        "revisions_needed": false
+      },
+      "programmatic_checks": {
+        "png_decodes": true,
+        "landscape_16_9_approx": true,
+        "user_prompt_matches_case": true,
+        "prompt_count_matches_calls": true,
+        "mirrored_image_bytes_match": true
+      }
+    }
+  ],
+  "current_skill_validation_scope": "Current text hashes reflect the published package after removing upstream structure images and their runtime dependency. The 14 image runs used the earlier skill; no image generation was rerun after this change. Worker hashes and prompts retain their historical meaning."
+}

@@ -1,0 +1,22 @@
+{
+  "name": "monthly-salary-cat-illustrations",
+  "owner": {
+    "name": "9Ashwin",
+    "url": "https://github.com/9Ashwin"
+  },
+  "description": "按月薪喵原始参考，为中文正文生成包含步骤、分支和反馈的手绘配图。",
+  "plugins": [
+    {
+      "name": "monthly-salary-cat-illustrations",
+      "source": "./",
+      "description": "按月薪喵原始参考，为中文正文生成包含步骤、分支和反馈的手绘配图。",
+      "category": "productivity",
+      "keywords": [
+        "illustration",
+        "chinese",
+        "cat",
+        "skills"
+      ]
+    }
+  ]
+}

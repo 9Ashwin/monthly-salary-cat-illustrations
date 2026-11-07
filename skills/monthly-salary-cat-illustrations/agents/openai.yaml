@@ -1,0 +1,4 @@
+interface:
+  display_name: "月薪喵正文配图"
+  short_description: "按月薪喵原始参考，为中文正文生成解释步骤、分支和反馈的手绘配图"
+  default_prompt: "使用 $monthly-salary-cat-illustrations，先看原始角色参考，再为这篇中文文章生成合适数量的月薪喵正文配图。"
