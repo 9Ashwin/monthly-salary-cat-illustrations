@@ -2,15 +2,17 @@
 
 在用户要求安装本技能时执行。仓库为 `https://github.com/9Ashwin/monthly-salary-cat-illustrations`，只安装其中的 `skills/monthly-salary-cat-illustrations/`。
 
+优先下载[独立技能 ZIP](https://github.com/9Ashwin/monthly-salary-cat-illustrations/releases/latest/download/monthly-salary-cat-illustrations.zip)，约 1.6 MB，根目录就是 `SKILL.md`。它可直接复制安装到下表中的技能目录，不需要 Node.js。仓库还保留高清示例，使用 `npx skills` 或克隆仓库可能下载更多文件。
+
 ## 选择安装位置
 
 用户明确指定目标 Agent 时按其要求安装；否则识别当前对话所在的 Agent，以宿主配置或已知技能目录为准，不根据电脑上安装了哪些应用来猜。遵循用户指定的安装范围；未指定时，skills CLI 使用当前项目，WorkBuddy 使用其用户配置目录。没有项目目录时，CLI 可使用用户级安装。
 
 | 当前 Agent | 安装方式 | 项目级目录 | 用户级目录 |
 | --- | --- | --- | --- |
-| Codex | skills CLI，`--agent codex` | `.agents/skills/` | `~/.agents/skills/` |
-| Claude Code | skills CLI，`--agent claude-code` | `.claude/skills/` | `~/.claude/skills/` |
-| CodeBuddy | skills CLI，`--agent codebuddy` | `.codebuddy/skills/` | `~/.codebuddy/skills/` |
+| Codex | 复制 ZIP 内容，或 CLI `--agent codex` | `.agents/skills/` | `~/.agents/skills/` |
+| Claude Code | 复制 ZIP 内容，或 CLI `--agent claude-code` | `.claude/skills/` | `~/.claude/skills/` |
+| CodeBuddy | 复制 ZIP 内容，或 CLI `--agent codebuddy` | `.codebuddy/skills/` | `~/.codebuddy/skills/` |
 | WorkBuddy | 直接复制技能目录 | 以宿主项目配置为准 | `$WORKBUDDY_CONFIG_DIR/skills/`，默认 `~/.workbuddy/skills/` |
 | 其他 Agent | 使用其支持的 CLI 目标或直接复制 | 以宿主配置为准 | 以宿主配置为准 |
 
@@ -28,12 +30,12 @@ npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-sa
 
 裸 `npx skills add ...` 可能进入交互式 Agent 选择。自动执行时使用上面的完整参数，不要等待用户替你操作终端菜单。
 
-## WorkBuddy 或 CLI 不支持的 Agent
+## 轻量 ZIP 与直接复制安装
 
-已核对的 skills CLI 1.7.6 不包含 WorkBuddy 目标。遇到不支持的目标、没有 Node.js，或宿主使用自定义技能目录时，直接复制文件即可，无需安装其他工具链。
+适用于所有支持技能目录的 Agent。已核对的 skills CLI 1.7.6 不包含 WorkBuddy 目标，WorkBuddy 使用这种方式即可。
 
-1. 用现有 Git 工具将上述仓库浅克隆到临时目录，或下载仓库源码 ZIP 后解压；已有用户指定的本地副本时可直接使用。不要把整个仓库放进技能目录。
-2. 读取 `skills/monthly-salary-cat-illustrations/SKILL.md`，确认技能名称。将这个目录的完整内容复制到目标技能目录下的 `monthly-salary-cat-illustrations/`。
+1. 将独立技能 ZIP 下载并解压到临时目录。优先检查根目录的 `SKILL.md`；只有轻量包不可用或用户指定使用仓库时，再浅克隆仓库或使用已有本地副本，技能位于 `skills/monthly-salary-cat-illustrations/`。不要把整个仓库放进技能目录。
+2. 读取 `SKILL.md`，确认技能名称。将包含这个文件的技能目录完整复制到目标技能目录下的 `monthly-salary-cat-illustrations/`。
 3. 保留 `assets/`、`references/`、`agents/`、`LICENSE` 和 `NOTICE.md`。已有同名技能需要更新时，先保留旧目录备份，再替换本技能；不改其他技能。
 
 例如，WorkBuddy 安装后应包含：
@@ -46,8 +48,12 @@ npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-sa
 ├── agents/openai.yaml
 ├── references/
 └── assets/
-    ├── character-reference.webp
-    └── examples/
+    ├── character-reference/
+    │   ├── front.png
+    │   ├── side.png
+    │   ├── gesture.png
+    │   └── working.png
+    └── examples/  # 14 张 .jpg 预览
 ```
 
 WorkBuddy 也可以通过“添加技能 → 上传技能”导入本地 ZIP，见[官方技能文档](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills)。打包时让 `SKILL.md` 位于 ZIP 根目录，保留其余相对目录。
@@ -55,6 +61,6 @@ WorkBuddy 也可以通过“添加技能 → 上传技能”导入本地 ZIP，�
 ## 核验并继续用户任务
 
 - 从安装位置重新读取 `SKILL.md`，确认名称为 `monthly-salary-cat-illustrations`。
-- 确认引用的参考文档、14 张示例及 `assets/character-reference.webp` 均可读取。原始 WebP 为 803066 字节，SHA-256 为 `fc9ee0b926710c8bb6bde6dd462ff5a2db8c67503a9c4994478084e387bb0d95`。
+- 用文件存在性和图片元数据核验参考文档、`assets/examples/` 下的 14 张 JPEG 预览，以及 `assets/character-reference/` 下的 `front.png`、`side.png`、`gesture.png`、`working.png`。4 张角色图均为 192×208；示例预览最长边为 960 像素。不需要把全部图片读入视觉工具。
 - 报告实际安装路径和核验结果。宿主需要刷新技能列表或新建对话时，说明该步骤；不要把文件复制成功说成宿主已识别或已验证生图。
-- 用户同时要求画图时，读取安装后的技能并继续完成绘图。使用当前宿主已启用、支持参考图的图像能力，将内置角色图实际传入工具；没有这种能力时说明限制并提供提示词。
+- 用户同时要求画图时，读取安装后的技能并继续完成绘图。使用当前宿主已启用、支持参考图的图像能力，默认只查看并传入 `front.png`；按当前姿态最多再加一张，不批量读取全部角色图，也不默认下载完整精灵图。没有这种能力时说明限制并提供提示词。

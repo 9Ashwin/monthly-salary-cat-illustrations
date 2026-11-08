@@ -4,12 +4,12 @@
   "review_date": "2026-11-07",
   "scope": "These are concrete example runs, not a statistical benchmark or a guarantee of future image quality. Visual reviews are qualitative; no automatic OCR or exact whitespace measurement was used.",
   "current_skill_text_sha256_at_validation": {
-    "skills/monthly-salary-cat-illustrations/NOTICE.md": "48e2a1535cb1ac46b368bd93351cd6b74eb227090c79e7d7a4c74065e28d42d5",
-    "skills/monthly-salary-cat-illustrations/SKILL.md": "746a3cded9ad8d72d3893242217060b1d31f278e29b0d5c5f8c6282b8da5edb6",
+    "skills/monthly-salary-cat-illustrations/NOTICE.md": "4eeaac7ec930405ddccae11db899aa9cf0db87a7ec25a4e93cb2f556290554fd",
+    "skills/monthly-salary-cat-illustrations/SKILL.md": "fd9248eb46f9848d4833bd25490f5d7b8b92b996e22d95e8a0d5c16dc3764c61",
     "skills/monthly-salary-cat-illustrations/agents/openai.yaml": "97200d978ddd3bd859a5ccd67b708e5608ac1fdf911509d404027b4be557db7b",
-    "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "68321ac6003dee963015f0701a7778f2d2bee40fc82f76ef316af9bf6037e478",
-    "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "eb058c4755286e3fa694a35a97c4abf938364d230e3e5041678ae9b5ff1174d2",
-    "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "95c30fb706157e8630d653b0a8ff200bf64d0022cd64b2dd661f9fd8347b972d",
+    "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "6f4331834c2e4cba466d09db762977f9037ffcb533e6dacc6b5398203287b72d",
+    "skills/monthly-salary-cat-illustrations/references/monthly-salary-cat-ip.md": "e08d9d5da6e52cb18c9edc900e75585ab85710cb1ad35018797ea3aeb5df8de2",
+    "skills/monthly-salary-cat-illustrations/references/prompt-template.md": "4887d06df0cc76c8c0b6df4c850101c0d8666d274bf22ba2680e837b416d12d2",
     "skills/monthly-salary-cat-illustrations/references/qa-checklist.md": "94a9f6409eaa24ad402f2c6db3da518708aeece8768b1f216c8df121b03c4e31",
     "skills/monthly-salary-cat-illustrations/references/style-dna.md": "a4561053773ffca6c2a27dc61165c97778600eec0a714264386429e6982f42a5"
   },
@@ -976,8 +976,8 @@
       }
     }
   ],
-  "current_skill_validation_scope": "Current text hashes reflect the package after removing upstream structure-image dependencies, bundling the original character WebP, and clarifying host-neutral image-tool use. The 14 image runs used the earlier skill; no image generation was rerun after these changes. Worker hashes and prompts retain their historical meaning. Package installation checks do not establish WorkBuddy runtime or cross-model image quality.",
-  "bundled_character_reference": {
+  "current_skill_validation_scope": "Current text hashes reflect host-neutral tooling, four separate original PNG frames, and lightweight JPEG example previews. The 14 image-generation runs used an earlier skill and were not rerun. Per-case checks, worker hashes and prompts retain their historical meaning, including the then-identical PNG copies. Current package checks do not establish WorkBuddy image-tool runtime or cross-model quality.",
+  "previous_bundled_character_reference": {
     "path": "skills/monthly-salary-cat-illustrations/assets/character-reference.webp",
     "source_url": "https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp",
     "sha256": "fc9ee0b926710c8bb6bde6dd462ff5a2db8c67503a9c4994478084e387bb0d95",
@@ -986,6 +986,222 @@
       1536,
       2288
     ],
-    "verification": "Byte-identical to spritesheet.webp from the downloaded original pet package; WebP decoded successfully."
+    "verification": "Byte-identical to spritesheet.webp from the downloaded original pet package; WebP decoded successfully.",
+    "note": "Historical source bundled in earlier releases. The full WebP and its old package path have been removed from the current release; SHA-256 is retained for source provenance."
+  },
+  "current_package_assets": {
+    "reference_frames": [
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/character-reference/front.png",
+        "source_cell_zero_based": [
+          3,
+          0
+        ],
+        "dimensions": [
+          192,
+          208
+        ],
+        "bytes": 18727,
+        "sha256": "815b3033a5af7dfba590914f9757a9f271efb7b06b56b62a13af7693c38df7e6"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/character-reference/side.png",
+        "source_cell_zero_based": [
+          1,
+          0
+        ],
+        "dimensions": [
+          192,
+          208
+        ],
+        "bytes": 17501,
+        "sha256": "4e7ba595b98923bca1e073b82a1217c481c9e3eb759d003a894bc0a0ff8c499d"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/character-reference/gesture.png",
+        "source_cell_zero_based": [
+          2,
+          0
+        ],
+        "dimensions": [
+          192,
+          208
+        ],
+        "bytes": 17230,
+        "sha256": "3da4f8bfc358cb945c0a7a247f3b074b5ce80a379745b5b20cb0bc742527fced"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/character-reference/working.png",
+        "source_cell_zero_based": [
+          6,
+          0
+        ],
+        "dimensions": [
+          192,
+          208
+        ],
+        "bytes": 24921,
+        "sha256": "77e6201a4860d40b20f7671d2b7ec2a987a5a8ffbaa795d41d07d24daa0ac0db"
+      }
+    ],
+    "default_reference": "skills/monthly-salary-cat-illustrations/assets/character-reference/front.png",
+    "example_previews": [
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/01-two-breakpoints.jpg",
+        "source": "examples/images/01-two-breakpoints.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 107173,
+        "sha256": "17048a0c9448432f7a00f007e4e60de2df0e3f09ca9b2f6893bb1e509ea06c5d",
+        "source_sha256": "d293e176ab192db7a5e25304b7cd993121b7847be79563e6ecf1b4dcad5e6620"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/02-minimum-loop.jpg",
+        "source": "examples/images/02-minimum-loop.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 109823,
+        "sha256": "6594e4a4bd73f747640edac323124c91dda14a1fe7a1b83f152899702a078d7e",
+        "source_sha256": "388ee5726b2522e924018b064eb0d8dd92666ec5c11e79c64ad00389e42e149d"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/03-sort-by-purpose.jpg",
+        "source": "examples/images/03-sort-by-purpose.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 100338,
+        "sha256": "290f3d1fbfd39bbdbe5efaa8e0f08901a0befa94572504d85abb90edeb9e5a5b",
+        "source_sha256": "5ba9fdb658193c4293023b0cc63a9641d11beddf77e7cec583f4f9a332314527"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/04-one-source-many-uses.jpg",
+        "source": "examples/images/04-one-source-many-uses.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 130989,
+        "sha256": "53453fe2618073bee736fafd7b27461f3d800e7df0108fe3be708889eaab5787",
+        "source_sha256": "a49ea97872654ce2a47dfe46248b5159696eb096ce269e54643287127cb23be2"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/05-handoff-path.jpg",
+        "source": "examples/images/05-handoff-path.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 86877,
+        "sha256": "47320c4060caad9de26149922d540739552aef31ef49b5963c9d5e9906cd8c8e",
+        "source_sha256": "f311bc523d888cefffdb91592dd8cfb9f13632f258d3d78a84f1dbea8ab3acf2"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/06-three-sources.jpg",
+        "source": "examples/images/06-three-sources.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 102445,
+        "sha256": "2ccfd16f5f9d0236f8a1908529de3bf062edb126b69547cc21be120cddf26846",
+        "source_sha256": "6b7f1495429f21b6bef25e71f90b30348ced38201250296885b3637cbfeabcce"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/07-three-content-jobs.jpg",
+        "source": "examples/images/07-three-content-jobs.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 108550,
+        "sha256": "51c264f21e56db3297785735e924b3405747dad70a46828f5d71063fc406ee69",
+        "source_sha256": "ac02563bda916c51c60e1e710a76174c45c309a68f20967ab4f15338ee0b356a"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/08-reusable-toolbox.jpg",
+        "source": "examples/images/08-reusable-toolbox.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 107244,
+        "sha256": "1a1b089d26728b6bc4c53050688577b9bf008ef497245f69cf2b95926bc0f285",
+        "source_sha256": "db6e787b9e87d654179c6a5dd6e007800e294705a686fd447cf8523f3cb80949"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/09-common-pits.jpg",
+        "source": "examples/images/09-common-pits.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 107433,
+        "sha256": "e6b66431f9a9ab7bfeb91e5f337749eaf51c1b3358e793e6676d1a3e8537e092",
+        "source_sha256": "6dbc4fb11882a313df280a9918a852ba6ed083442990fc6d303987816662f776"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/10-information-well.jpg",
+        "source": "examples/images/10-information-well.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 120605,
+        "sha256": "bdc703b250c25cfdbf6b2c84fdea7346b1c6544aca472ce2a6ba554b3a998ad3",
+        "source_sha256": "85cf0ca339e39ff7a4a8efd8ccef33b52293b8ae3041ae6855531b0d0f4755c6"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/11-idea-press.jpg",
+        "source": "examples/images/11-idea-press.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 87274,
+        "sha256": "c3aaef49d19ad175ef603758f391df15cd22f956211c6a83e18d664a1d0a480c",
+        "source_sha256": "46d3591ad58a1bdda53c6f64102c7c1203b88ce16cb70a108d436f2a30bb5d9d"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/12-content-fermentation.jpg",
+        "source": "examples/images/12-content-fermentation.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 107946,
+        "sha256": "0cba8bc199709bf564625363733305045ea784bde895d380bff731ed596ff764",
+        "source_sha256": "c9e5095ab6097564e9b6736ab8fbe3fb71bd2dc7ebc172298440c240dfe6ca75"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/13-system-bearing.jpg",
+        "source": "examples/images/13-system-bearing.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 116730,
+        "sha256": "e2dfcd658252921d79501098b15a9e11598a43d7ae3afa1ec115d1b870368993",
+        "source_sha256": "c7d7ffac63d46b60cde35af11bd9ae4da57c54944901f014302309a3bcce0120"
+      },
+      {
+        "path": "skills/monthly-salary-cat-illustrations/assets/examples/14-trust-bridge.jpg",
+        "source": "examples/images/14-trust-bridge.png",
+        "dimensions": [
+          960,
+          540
+        ],
+        "bytes": 93468,
+        "sha256": "63b9f68be3ab75437a7b91ed32f81e30dcff1408bc411609cf36b8bb008ade98",
+        "source_sha256": "94ea980a7668a714bd5b1bfee4c22ac8891825b4f0ded2bf6458cf4c696e8c4b"
+      }
+    ],
+    "processing": "Original 192x208 RGBA frames copied without resampling or redrawing. Example previews exported as JPEG with longest edge 960 and quality 82; original PNGs retained under examples/images/.",
+    "verification": "All four frames match original source pixels; 14 previews decode and match their named source. No image-generation rerun was performed."
   }
 }

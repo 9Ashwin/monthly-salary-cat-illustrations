@@ -5,12 +5,21 @@
 原型为 **xiaoyyy 发布的**[月薪喵 monthly-salary-cat-fix](https://codex-pets.net/#/pets/monthly-salary-cat-fix)。默认使用这一版本，不通过同名搜索另找角色。
 
 1. 用户已提供原图时，直接查看并使用。
-2. 否则直接查看并使用内置的 [原始精灵图](../assets/character-reference.webp)。这是 1536×2288 的完整 WebP，正常使用不需要联网获取角色素材，也不要求分帧、安装宠物、登录或添加依赖。工具不接受 WebP 时，可用现有图片工具无损转为 PNG，保留原始画面与透明度。
-3. 仅在内置文件缺失或损坏时，从[原始下载地址](https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp)恢复到用户工作区，查看后使用。
+2. 否则只查看并使用内置的 [正面站姿](../assets/character-reference/front.png)：192×208，约 19 KB。它是原始动作表第 3 行第 0 列的完整帧，未重绘或缩放。
+3. 确需其他视角或动作时，从下表最多再选一张，不一次读取或传入全部姿态。
 
-内置精灵图保留源文件字节；来源与许可范围见 [NOTICE.md](../NOTICE.md)。`assets/examples/` 中的配图为本项目生成的场景示例，不替代原始角色参考。
+| 原始帧 | 用途 | 原始网格（行、列，从 0 起算） |
+| --- | --- | --- |
+| [front.png](../assets/character-reference/front.png) | 默认正面站姿，核对比例、五官和色块 | 3、0 |
+| [side.png](../assets/character-reference/side.png) | 侧身轮廓与短尾 | 1、0 |
+| [gesture.png](../assets/character-reference/gesture.png) | 伸爪动作 | 2、0 |
+| [working.png](../assets/character-reference/working.png) | 桌面操作姿态 | 6、0 |
 
-内置文件不可用、公开源也不可访问且用户没有提供角色参考时，说明当前无法核对形象，可先完成关系草案与提示词；不要用同名的另一只宠物或仅凭文字重新设计的猫替代原型。
+4 张图均为 192×208，保留各自原始 RGBA 像素。完整动作表不随安装包分发，正常使用不需要联网、安装宠物或添加依赖。文件缺失时重新安装本技能即可。只有用户确需其他原始动作时，才从[原始下载地址](https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp)取得源图并裁取相关帧，不将整张动作表传入视觉或生图工具。
+
+来源与许可范围见 [NOTICE.md](../NOTICE.md)。`assets/examples/` 是本项目生成配图的轻量预览，不替代原始角色参考。
+
+没有可读取的角色参考时，说明当前无法核对形象，可先完成关系草案与提示词；不要用同名的另一只宠物或仅凭文字重新设计的猫替代原型。
 
 文字只是帮助核对，不替代看图；姿态不同造成的透视、闭眼和肢体遮挡，以相近姿态的原始参考为准。
 

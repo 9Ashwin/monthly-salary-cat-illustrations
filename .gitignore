@@ -4,6 +4,6 @@ __pycache__/
 *.pyc
 work/
 .venv/
-# Local scratch copies; the original character-reference.webp is tracked.
+# Local scratch copies; bundled reference frames have their own directory.
 skills/monthly-salary-cat-illustrations/assets/character-reference.png
 skills/monthly-salary-cat-illustrations/assets/source/

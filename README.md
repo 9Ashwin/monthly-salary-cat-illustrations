@@ -55,7 +55,7 @@ npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-sa
 npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-salary-cat-illustrations --agent codex --yes --copy --global
 ```
 
-手动安装时，将整个 `skills/monthly-salary-cat-illustrations/` 目录复制到助手支持的技能目录。包内包含入口、角色原图、参考资料、示例图、许可证和来源说明。更多安装参数见 [skills 安装工具](https://github.com/vercel-labs/skills)。
+手动安装时，将整个 `skills/monthly-salary-cat-illustrations/` 目录复制到助手支持的技能目录。包内包含入口、角色参考小图、参考资料、示例预览、许可证和来源说明。更多安装参数见 [skills 安装工具](https://github.com/vercel-labs/skills)。
 
 Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖。仓库另附 `.claude-plugin/` 元数据。
 
@@ -63,7 +63,9 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 
 **WorkBuddy**：优先将上面的安装指令交给 Agent，按 [INSTALL.md](INSTALL.md) 直接复制完整技能目录。也可将 `skills/monthly-salary-cat-illustrations/` 内的文件打包为 ZIP，通过“添加技能 → 上传技能”导入。具体入口见 [WorkBuddy 技能文档](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills)。本项目尚未实测 WorkBuddy 的生图流程。
 
-安装包已内置约 0.8 MB 的[月薪喵原始 WebP 精灵图](skills/monthly-salary-cat-illustrations/assets/character-reference.webp)，正常使用无需额外下载或安装宠物。没有图像工具时，skill 可以提供配图规划和提示词，无法直接生成图片。
+可直接下载[轻量技能 ZIP](https://github.com/9Ashwin/monthly-salary-cat-illustrations/releases/latest/download/monthly-salary-cat-illustrations.zip)（约 1.6 MB），通过宿主导入，或解压后复制到技能目录。`npx skills` 可能克隆包含高清 PNG 的整个仓库，下载轻量包更省流量。
+
+安装包内置 4 张独立的 192×208 原始动作帧，没有缩放或重绘。默认只查看并传入[正面参考](skills/monthly-salary-cat-illustrations/assets/character-reference/front.png)，按当前姿态最多再加一张，不批量读取全部图片。完整精灵图不随包分发，正常使用无需额外下载或安装宠物；没有图像工具时，skill 可以提供配图规划和提示词。
 
 <a id="usage"></a>
 
@@ -111,7 +113,7 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 
 ## 14 张配图示例
 
-每张图均由独立 AI 执行者读取本 skill 和正文任务后生成。点击图片可查看原图；对应正文和实际图像提示词见 [examples/prompts.md](examples/prompts.md)，执行与检查记录见 [evals/](evals/README.md)。
+每张图均由独立 AI 执行者读取本 skill 和正文任务后生成。点击图片可查看高清 PNG；技能安装包仅携带最长边 960 像素的 JPEG 预览。对应正文和实际图像提示词见 [examples/prompts.md](examples/prompts.md)，执行与检查记录见 [evals/](evals/README.md)。
 
 | | |
 | --- | --- |
@@ -139,7 +141,7 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 ├── examples/
 │   ├── README.md                      # 示例索引
 │   ├── prompts.md                     # 请求与实际生成提示词
-│   └── images/                        # 14 张展示图
+│   └── images/                        # 14 张高清 PNG
 └── skills/
     └── monthly-salary-cat-illustrations/
         ├── SKILL.md                   # 技能入口
@@ -148,8 +150,12 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
         ├── agents/openai.yaml
         ├── references/                # 风格、角色、构图、模板、检查
         └── assets/
-            ├── character-reference.webp # 月薪喵原始精灵图
-            └── examples/              # 同一组示例，随技能安装
+            ├── character-reference/   # 4 张独立原始帧，每张 192×208
+            │   ├── front.png          # 默认正面参考
+            │   ├── side.png
+            │   ├── gesture.png
+            │   └── working.png
+            └── examples/              # 14 张 JPEG 预览，最长边 960 像素
 ```
 
 </details>

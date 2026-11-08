@@ -37,19 +37,19 @@
 
 | 示例 | 观察重点 |
 | --- | --- |
-| [01 · 两个断点](../assets/examples/01-two-breakpoints.png) | 输入到产出、产出到承接的两个不同断点 |
-| [02 · 最小闭环](../assets/examples/02-minimum-loop.png) | 来源、判断、产出、承接与反馈回流 |
-| [03 · 按目的分流](../assets/examples/03-sort-by-purpose.png) | 先判断，再将材料送到不同用途 |
-| [04 · 一源多用](../assets/examples/04-one-source-many-uses.png) | 同一份材料变成多个不同产物 |
-| [05 · 承接路径](../assets/examples/05-handoff-path.png) | 内容之后的入口、动作与下一站 |
-| [06 · 三类来源](../assets/examples/06-three-sources.png) | 多来源汇入同一判断环节 |
-| [07 · 内容的三份工作](../assets/examples/07-three-content-jobs.png) | 不同内容承担吸引、建立信任和承接 |
-| [08 · 可复用工具箱](../assets/examples/08-reusable-toolbox.png) | 从重复工作提炼工具，再投入下一轮 |
-| [09 · 常见坑](../assets/examples/09-common-pits.png) | 路径上的风险、选择与修正路线 |
-| [10 · 信息井](../assets/examples/10-information-well.png) | 来源积累、提取、判断与使用 |
-| [11 · 想法压制机](../assets/examples/11-idea-press.png) | 松散想法经过加工形成可用产物 |
-| [12 · 内容发酵](../assets/examples/12-content-fermentation.png) | 素材、时间、反馈怎样改变产出 |
-| [13 · 系统承重](../assets/examples/13-system-bearing.png) | 重复工作交给系统，猫保留判断 |
-| [14 · 信任桥](../assets/examples/14-trust-bridge.png) | 信息如何经证据、体验与反馈抵达信任 |
+| [01 · 两个断点](../assets/examples/01-two-breakpoints.jpg) | 输入到产出、产出到承接的两个不同断点 |
+| [02 · 最小闭环](../assets/examples/02-minimum-loop.jpg) | 来源、判断、产出、承接与反馈回流 |
+| [03 · 按目的分流](../assets/examples/03-sort-by-purpose.jpg) | 先判断，再将材料送到不同用途 |
+| [04 · 一源多用](../assets/examples/04-one-source-many-uses.jpg) | 同一份材料变成多个不同产物 |
+| [05 · 承接路径](../assets/examples/05-handoff-path.jpg) | 内容之后的入口、动作与下一站 |
+| [06 · 三类来源](../assets/examples/06-three-sources.jpg) | 多来源汇入同一判断环节 |
+| [07 · 内容的三份工作](../assets/examples/07-three-content-jobs.jpg) | 不同内容承担吸引、建立信任和承接 |
+| [08 · 可复用工具箱](../assets/examples/08-reusable-toolbox.jpg) | 从重复工作提炼工具，再投入下一轮 |
+| [09 · 常见坑](../assets/examples/09-common-pits.jpg) | 路径上的风险、选择与修正路线 |
+| [10 · 信息井](../assets/examples/10-information-well.jpg) | 来源积累、提取、判断与使用 |
+| [11 · 想法压制机](../assets/examples/11-idea-press.jpg) | 松散想法经过加工形成可用产物 |
+| [12 · 内容发酵](../assets/examples/12-content-fermentation.jpg) | 素材、时间、反馈怎样改变产出 |
+| [13 · 系统承重](../assets/examples/13-system-bearing.jpg) | 重复工作交给系统，猫保留判断 |
+| [14 · 信任桥](../assets/examples/14-trust-bridge.jpg) | 信息如何经证据、体验与反馈抵达信任 |
 
 示例只用于校准信息量与交互关系。新主题重新构图；仅用户明确指定某张图时，才将它作为编辑或布局依据。仓库示例同样先写关系草案，再使用提示词模板与检查清单。
