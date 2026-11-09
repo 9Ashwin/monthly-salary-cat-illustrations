@@ -9,7 +9,7 @@
   <h3>
     <a href="#install">安装</a> · <a href="#usage">使用</a> · <a href="#examples">示例</a> · <a href="examples/prompts.md">提示词</a> · <a href="NOTICE.md">来源与许可</a>
   </h3>
-  <img src="examples/images/02-minimum-loop.png" alt="月薪喵操作内容流程：三类输入经过判断、产出与承接，反馈回到下一轮" width="1000">
+  <a href="examples/images/02-minimum-loop.jpg"><img src="skills/monthly-salary-cat-illustrations/assets/examples/02-minimum-loop.jpg" alt="月薪喵操作内容流程：三类输入经过判断、产出与承接，反馈回到下一轮" width="960"></a>
 </div>
 
 ## 这是什么？
@@ -63,7 +63,7 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 
 **WorkBuddy**：优先将上面的安装指令交给 Agent，按 [INSTALL.md](INSTALL.md) 直接复制完整技能目录。也可将 `skills/monthly-salary-cat-illustrations/` 内的文件打包为 ZIP，通过“添加技能 → 上传技能”导入。具体入口见 [WorkBuddy 技能文档](https://www.workbuddy.ai/docs/zh/workbuddy/From-Beginner-to-Expert-Guide/Function-Description/Skills)。本项目尚未实测 WorkBuddy 的生图流程。
 
-可直接下载[轻量技能 ZIP](https://github.com/9Ashwin/monthly-salary-cat-illustrations/releases/latest/download/monthly-salary-cat-illustrations.zip)（约 1.6 MB），通过宿主导入，或解压后复制到技能目录。`npx skills` 可能克隆包含高清 PNG 的整个仓库，下载轻量包更省流量。
+可直接下载[轻量技能 ZIP](https://github.com/9Ashwin/monthly-salary-cat-illustrations/releases/latest/download/monthly-salary-cat-illustrations.zip)（约 1.6 MB），通过宿主导入，或解压后复制到技能目录。`npx skills` 仍需获取仓库里的展示图，下载轻量包更省流量。
 
 安装包内置 4 张独立的 192×208 原始动作帧，没有缩放或重绘。默认只查看并传入[正面参考](skills/monthly-salary-cat-illustrations/assets/character-reference/front.png)，按当前姿态最多再加一张，不批量读取全部图片。完整精灵图不随包分发，正常使用无需额外下载或安装宠物；没有图像工具时，skill 可以提供配图规划和提示词。
 
@@ -113,17 +113,17 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 
 ## 14 张配图示例
 
-每张图均由独立 AI 执行者读取本 skill 和正文任务后生成。点击图片可查看高清 PNG；技能安装包仅携带最长边 960 像素的 JPEG 预览。对应正文和实际图像提示词见 [examples/prompts.md](examples/prompts.md)，执行与检查记录见 [evals/](evals/README.md)。
+每张图均由独立 AI 执行者读取本 skill 和正文任务后生成。页面使用最长边 960 像素的预览，点击可查看 1280 像素的 JPEG 展示图；技能安装包使用同一组预览。对应正文和实际图像提示词见 [examples/prompts.md](examples/prompts.md)，执行与检查记录见 [evals/](evals/README.md)。
 
 | | |
 | --- | --- |
-| **01 · 两个断点**<br>![两个断点](examples/images/01-two-breakpoints.png) | **02 · 最小闭环**<br>![最小闭环](examples/images/02-minimum-loop.png) |
-| **03 · 先判断用途**<br>![先判断用途](examples/images/03-sort-by-purpose.png) | **04 · 一份材料，多种用途**<br>![一份材料，多种用途](examples/images/04-one-source-many-uses.png) |
-| **05 · 内容之后要有路**<br>![内容之后要有路](examples/images/05-handoff-path.png) | **06 · 三类信息如何汇合**<br>![三类信息如何汇合](examples/images/06-three-sources.png) |
-| **07 · 三种内容的分工**<br>![三种内容的分工](examples/images/07-three-content-jobs.png) | **08 · 把重复回答留下来**<br>![把重复回答留下来](examples/images/08-reusable-toolbox.png) |
-| **09 · 三个常见断点**<br>![三个常见断点](examples/images/09-common-pits.png) | **10 · 稳定的输入**<br>![稳定的输入](examples/images/10-information-well.png) |
-| **11 · 从素材到判断**<br>![从素材到判断](examples/images/11-idea-press.png) | **12 · 让经验继续生长**<br>![让经验继续生长](examples/images/12-content-fermentation.png) |
-| **13 · 让系统承重**<br>![让系统承重](examples/images/13-system-bearing.png) | **14 · 信任来自连续证据**<br>![信任来自连续证据](examples/images/14-trust-bridge.png) |
+| **01 · 两个断点**<br>[![两个断点](skills/monthly-salary-cat-illustrations/assets/examples/01-two-breakpoints.jpg)](examples/images/01-two-breakpoints.jpg) | **02 · 最小闭环**<br>[![最小闭环](skills/monthly-salary-cat-illustrations/assets/examples/02-minimum-loop.jpg)](examples/images/02-minimum-loop.jpg) |
+| **03 · 先判断用途**<br>[![先判断用途](skills/monthly-salary-cat-illustrations/assets/examples/03-sort-by-purpose.jpg)](examples/images/03-sort-by-purpose.jpg) | **04 · 一份材料，多种用途**<br>[![一份材料，多种用途](skills/monthly-salary-cat-illustrations/assets/examples/04-one-source-many-uses.jpg)](examples/images/04-one-source-many-uses.jpg) |
+| **05 · 内容之后要有路**<br>[![内容之后要有路](skills/monthly-salary-cat-illustrations/assets/examples/05-handoff-path.jpg)](examples/images/05-handoff-path.jpg) | **06 · 三类信息如何汇合**<br>[![三类信息如何汇合](skills/monthly-salary-cat-illustrations/assets/examples/06-three-sources.jpg)](examples/images/06-three-sources.jpg) |
+| **07 · 三种内容的分工**<br>[![三种内容的分工](skills/monthly-salary-cat-illustrations/assets/examples/07-three-content-jobs.jpg)](examples/images/07-three-content-jobs.jpg) | **08 · 把重复回答留下来**<br>[![把重复回答留下来](skills/monthly-salary-cat-illustrations/assets/examples/08-reusable-toolbox.jpg)](examples/images/08-reusable-toolbox.jpg) |
+| **09 · 三个常见断点**<br>[![三个常见断点](skills/monthly-salary-cat-illustrations/assets/examples/09-common-pits.jpg)](examples/images/09-common-pits.jpg) | **10 · 稳定的输入**<br>[![稳定的输入](skills/monthly-salary-cat-illustrations/assets/examples/10-information-well.jpg)](examples/images/10-information-well.jpg) |
+| **11 · 从素材到判断**<br>[![从素材到判断](skills/monthly-salary-cat-illustrations/assets/examples/11-idea-press.jpg)](examples/images/11-idea-press.jpg) | **12 · 让经验继续生长**<br>[![让经验继续生长](skills/monthly-salary-cat-illustrations/assets/examples/12-content-fermentation.jpg)](examples/images/12-content-fermentation.jpg) |
+| **13 · 让系统承重**<br>[![让系统承重](skills/monthly-salary-cat-illustrations/assets/examples/13-system-bearing.jpg)](examples/images/13-system-bearing.jpg) | **14 · 信任来自连续证据**<br>[![信任来自连续证据](skills/monthly-salary-cat-illustrations/assets/examples/14-trust-bridge.jpg)](examples/images/14-trust-bridge.jpg) |
 
 示例用于展示本轮生成结果。新主题需要重新分析和构图，生成后仍应检查形象、中文和连接关系。
 
@@ -141,7 +141,7 @@ Node.js 用于运行安装工具，配图 skill 本身没有 Node 运行依赖�
 ├── examples/
 │   ├── README.md                      # 示例索引
 │   ├── prompts.md                     # 请求与实际生成提示词
-│   └── images/                        # 14 张高清 PNG
+│   └── images/                        # 14 张 JPEG 展示图，最长边 1280 像素
 └── skills/
     └── monthly-salary-cat-illustrations/
         ├── SKILL.md                   # 技能入口

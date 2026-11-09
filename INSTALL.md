@@ -2,7 +2,7 @@
 
 在用户要求安装本技能时执行。仓库为 `https://github.com/9Ashwin/monthly-salary-cat-illustrations`，只安装其中的 `skills/monthly-salary-cat-illustrations/`。
 
-优先下载[独立技能 ZIP](https://github.com/9Ashwin/monthly-salary-cat-illustrations/releases/latest/download/monthly-salary-cat-illustrations.zip)，约 1.6 MB，根目录就是 `SKILL.md`。它可直接复制安装到下表中的技能目录，不需要 Node.js。仓库还保留高清示例，使用 `npx skills` 或克隆仓库可能下载更多文件。
+优先下载[独立技能 ZIP](https://github.com/9Ashwin/monthly-salary-cat-illustrations/releases/latest/download/monthly-salary-cat-illustrations.zip)，约 1.6 MB，根目录就是 `SKILL.md`。它可直接复制安装到下表中的技能目录，不需要 Node.js。仓库还包含展示图和历史记录，使用 `npx skills` 或克隆仓库可能下载更多文件。
 
 ## 选择安装位置
 
@@ -34,7 +34,7 @@ npx --yes skills add 9Ashwin/monthly-salary-cat-illustrations --skill monthly-sa
 
 适用于所有支持技能目录的 Agent。已核对的 skills CLI 1.7.6 不包含 WorkBuddy 目标，WorkBuddy 使用这种方式即可。
 
-1. 将独立技能 ZIP 下载并解压到临时目录。优先检查根目录的 `SKILL.md`；只有轻量包不可用或用户指定使用仓库时，再浅克隆仓库或使用已有本地副本，技能位于 `skills/monthly-salary-cat-illustrations/`。不要把整个仓库放进技能目录。
+1. 将独立技能 ZIP 下载并解压到临时目录。优先检查根目录的 `SKILL.md`；只有轻量包不可用或用户指定使用仓库时，再用 `git clone --depth 1` 浅克隆仓库或使用已有本地副本，技能位于 `skills/monthly-salary-cat-illustrations/`。不要把整个仓库放进技能目录。
 2. 读取 `SKILL.md`，确认技能名称。将包含这个文件的技能目录完整复制到目标技能目录下的 `monthly-salary-cat-illustrations/`。
 3. 保留 `assets/`、`references/`、`agents/`、`LICENSE` 和 `NOTICE.md`。已有同名技能需要更新时，先保留旧目录备份，再替换本技能；不改其他技能。
 

@@ -27,7 +27,9 @@
 
 ## 生成示例
 
-[examples/images/](examples/images/) 保存 14 张高清 PNG；[skill 内的示例目录](skills/monthly-salary-cat-illustrations/assets/examples/) 保存由这些原图缩小、转码得到的 JPEG 预览，最长边为 960 像素。两处对应相同的示例内容，文件格式与字节内容不同。高清图由独立 AI 执行者读取 skill 和正文任务后生成，实际提示词见 [examples/prompts.md](examples/prompts.md)，验证方法与记录见 [evals/README.md](evals/README.md)。
+[examples/images/](examples/images/) 保存 14 张最长边 1280 像素、质量参数 80 的 JPEG 展示图；[skill 内的示例目录](skills/monthly-salary-cat-illustrations/assets/examples/) 保存最长边 960 像素的 JPEG 预览。两组图片均由原始生成 PNG 缩小、转码得到，内容对应，尺寸与字节内容不同。
+
+原始 PNG 由独立 AI 执行者读取 skill 和正文任务后生成，现保留在[固定历史提交](https://github.com/9Ashwin/monthly-salary-cat-illustrations/tree/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images)中。此次展示图调整没有重新生图，也没有改写 Git 历史。实际提示词见 [examples/prompts.md](examples/prompts.md)，验证方法与记录见 [evals/README.md](evals/README.md)。
 
 这些图片是新场景的生成示例，不是原作者发布的宠物动作帧或 SVG 原稿。示例中的第三方角色不因仓库开源而被重新授权，示例也不表示原作者授权或背书。本项目与原角色作者、宠物发布者及 OpenAI 无官方关联。
 

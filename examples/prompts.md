@@ -87,7 +87,7 @@
 
 ### 01 · 两个断点
 
-[查看图片](images/01-two-breakpoints.png)
+[查看图片](images/01-two-breakpoints.jpg)
 
 实际交给执行者的请求：
 
@@ -131,7 +131,7 @@
 
 ### 02 · 最小闭环
 
-[查看图片](images/02-minimum-loop.png)
+[查看图片](images/02-minimum-loop.jpg)
 
 实际交给执行者的请求：
 
@@ -186,7 +186,7 @@
 
 ### 03 · 先判断用途
 
-[查看图片](images/03-sort-by-purpose.png)
+[查看图片](images/03-sort-by-purpose.jpg)
 
 实际交给执行者的请求：
 
@@ -231,7 +231,7 @@
 
 ### 04 · 一份材料，多种用途
 
-[查看图片](images/04-one-source-many-uses.png)
+[查看图片](images/04-one-source-many-uses.jpg)
 
 实际交给执行者的请求：
 
@@ -267,7 +267,7 @@
 
 ### 05 · 内容之后要有路
 
-[查看图片](images/05-handoff-path.png)
+[查看图片](images/05-handoff-path.jpg)
 
 实际交给执行者的请求：
 
@@ -302,7 +302,7 @@
 
 ### 06 · 三类信息如何汇合
 
-[查看图片](images/06-three-sources.png)
+[查看图片](images/06-three-sources.jpg)
 
 实际交给执行者的请求：
 
@@ -338,7 +338,7 @@
 
 ### 07 · 三种内容的分工
 
-[查看图片](images/07-three-content-jobs.png)
+[查看图片](images/07-three-content-jobs.jpg)
 
 实际交给执行者的请求：
 
@@ -381,7 +381,7 @@
 
 ### 08 · 把重复回答留下来
 
-[查看图片](images/08-reusable-toolbox.png)
+[查看图片](images/08-reusable-toolbox.jpg)
 
 实际交给执行者的请求：
 
@@ -432,7 +432,7 @@
 
 ### 09 · 三个常见断点
 
-[查看图片](images/09-common-pits.png)
+[查看图片](images/09-common-pits.jpg)
 
 实际交给执行者的请求：
 
@@ -476,7 +476,7 @@
 
 ### 10 · 稳定的输入
 
-[查看图片](images/10-information-well.png)
+[查看图片](images/10-information-well.jpg)
 
 实际交给执行者的请求：
 
@@ -522,7 +522,7 @@
 
 ### 11 · 从素材到判断
 
-[查看图片](images/11-idea-press.png)
+[查看图片](images/11-idea-press.jpg)
 
 实际交给执行者的请求：
 
@@ -561,7 +561,7 @@
 
 ### 12 · 让经验继续生长
 
-[查看图片](images/12-content-fermentation.png)
+[查看图片](images/12-content-fermentation.jpg)
 
 实际交给执行者的请求：
 
@@ -602,7 +602,7 @@
 
 ### 13 · 让系统承重
 
-[查看图片](images/13-system-bearing.png)
+[查看图片](images/13-system-bearing.jpg)
 
 实际交给执行者的请求：
 
@@ -649,7 +649,7 @@
 
 ### 14 · 信任来自连续证据
 
-[查看图片](images/14-trust-bridge.png)
+[查看图片](images/14-trust-bridge.jpg)
 
 实际交给执行者的请求：
 

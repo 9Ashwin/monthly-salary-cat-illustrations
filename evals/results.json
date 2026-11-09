@@ -4,7 +4,7 @@
   "review_date": "2026-11-07",
   "scope": "These are concrete example runs, not a statistical benchmark or a guarantee of future image quality. Visual reviews are qualitative; no automatic OCR or exact whitespace measurement was used.",
   "current_skill_text_sha256_at_validation": {
-    "skills/monthly-salary-cat-illustrations/NOTICE.md": "4eeaac7ec930405ddccae11db899aa9cf0db87a7ec25a4e93cb2f556290554fd",
+    "skills/monthly-salary-cat-illustrations/NOTICE.md": "cbcb7946e2a505c6bbbb71b34393eadf3db1811a738a3f3aa85d400822e2f365",
     "skills/monthly-salary-cat-illustrations/SKILL.md": "fd9248eb46f9848d4833bd25490f5d7b8b92b996e22d95e8a0d5c16dc3764c61",
     "skills/monthly-salary-cat-illustrations/agents/openai.yaml": "97200d978ddd3bd859a5ccd67b708e5608ac1fdf911509d404027b4be557db7b",
     "skills/monthly-salary-cat-illustrations/references/composition-patterns.md": "6f4331834c2e4cba466d09db762977f9037ffcb533e6dacc6b5398203287b72d",
@@ -78,6 +78,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/01-two-breakpoints.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 166822,
+        "sha256": "656056c7531704b0d7295c2f56b53c87e32cffc664b590486d46931a99e6f696",
+        "source_sha256": "d293e176ab192db7a5e25304b7cd993121b7847be79563e6ecf1b4dcad5e6620",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -157,6 +172,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/02-minimum-loop.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 170018,
+        "sha256": "f01a272705407c952ad77b251fb5236eaae31907daabdd715603c1222746b60d",
+        "source_sha256": "388ee5726b2522e924018b064eb0d8dd92666ec5c11e79c64ad00389e42e149d",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -231,6 +261,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/03-sort-by-purpose.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 155324,
+        "sha256": "1ecc96daefd67f9d63ffda9be415a30a62289d5ece5c295b75d6af0ccfaff8f0",
+        "source_sha256": "5ba9fdb658193c4293023b0cc63a9641d11beddf77e7cec583f4f9a332314527",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -294,6 +339,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/04-one-source-many-uses.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 201029,
+        "sha256": "fcb973cf2bd04afe6ad5365d0215b03842f83175dae2fd1cfa4a3d85e7c2d23a",
+        "source_sha256": "a49ea97872654ce2a47dfe46248b5159696eb096ce269e54643287127cb23be2",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -362,6 +422,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/05-handoff-path.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 134412,
+        "sha256": "956e20f7d3428f86c847e4603c4e985002498ef9e4f25907dc4ff0e79a953202",
+        "source_sha256": "f311bc523d888cefffdb91592dd8cfb9f13632f258d3d78a84f1dbea8ab3acf2",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -429,6 +504,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/06-three-sources.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 159288,
+        "sha256": "174351379394773c6432c17df6bf99cc2f6d446283ffca1eb70106f9af09fb71",
+        "source_sha256": "6b7f1495429f21b6bef25e71f90b30348ced38201250296885b3637cbfeabcce",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -494,6 +584,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/07-three-content-jobs.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 169703,
+        "sha256": "e9625ee53fa9734b80faaf443f2c723005dc3f539a9bcebcf0e4518bd4b7785b",
+        "source_sha256": "ac02563bda916c51c60e1e710a76174c45c309a68f20967ab4f15338ee0b356a",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -565,6 +670,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/08-reusable-toolbox.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 161792,
+        "sha256": "4533c9935023b6d3f23488612e3dd17ede570c332924827b6a76453735a7759d",
+        "source_sha256": "db6e787b9e87d654179c6a5dd6e007800e294705a686fd447cf8523f3cb80949",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -631,6 +751,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/09-common-pits.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 164137,
+        "sha256": "5e7b40a80e5f56f50ffef0c0fa7ac3b987e02ebfe5435f24866b032938e03efa",
+        "source_sha256": "6dbc4fb11882a313df280a9918a852ba6ed083442990fc6d303987816662f776",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -697,6 +832,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/10-information-well.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 184091,
+        "sha256": "39fd3e62f5c84c8fc309ee0e716a93710ad295cf1f26074175b2fdef7f5f052b",
+        "source_sha256": "85cf0ca339e39ff7a4a8efd8ccef33b52293b8ae3041ae6855531b0d0f4755c6",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -764,6 +914,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/11-idea-press.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 135758,
+        "sha256": "8e8d85c91b00710953619f8fee0d9e02f282d3f0fdd15db130a250c61a252abe",
+        "source_sha256": "46d3591ad58a1bdda53c6f64102c7c1203b88ce16cb70a108d436f2a30bb5d9d",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -835,6 +1000,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/12-content-fermentation.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 168864,
+        "sha256": "451559161824d44ee0955f94e8996fda7f71de7ac8250b041527717a8d220478",
+        "source_sha256": "c9e5095ab6097564e9b6736ab8fbe3fb71bd2dc7ebc172298440c240dfe6ca75",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -906,6 +1086,21 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/13-system-bearing.jpg",
+        "dimensions": [
+          1280,
+          721
+        ],
+        "bytes": 196921,
+        "sha256": "882ae75d762b41a64cde18acd1ebe520f9dea7e15536a846f0a4811b84670756",
+        "source_sha256": "c7d7ffac63d46b60cde35af11bd9ae4da57c54944901f014302309a3bcce0120",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     },
     {
@@ -973,10 +1168,25 @@
         "user_prompt_matches_case": true,
         "prompt_count_matches_calls": true,
         "mirrored_image_bytes_match": true
+      },
+      "display_image": {
+        "path": "examples/images/14-trust-bridge.jpg",
+        "dimensions": [
+          1280,
+          720
+        ],
+        "bytes": 144255,
+        "sha256": "d88edb18d3e500239ff90b66312969f01ad62123ce8136a906feef5c3dec1726",
+        "source_sha256": "94ea980a7668a714bd5b1bfee4c22ac8891825b4f0ded2bf6458cf4c696e8c4b",
+        "transform": {
+          "max_edge": 1280,
+          "format": "JPEG",
+          "quality": 80
+        }
       }
     }
   ],
-  "current_skill_validation_scope": "Current text hashes reflect host-neutral tooling, four separate original PNG frames, and lightweight JPEG example previews. The 14 image-generation runs used an earlier skill and were not rerun. Per-case checks, worker hashes and prompts retain their historical meaning, including the then-identical PNG copies. Current package checks do not establish WorkBuddy image-tool runtime or cross-model quality.",
+  "current_skill_validation_scope": "Per-case fields retain historical generation and PNG validation meaning. Current display_image fields describe resized/re-encoded JPEG derivatives. The skill reference frames and 960px previews are unchanged. No image-generation or WorkBuddy runtime test was rerun for this repository compression.",
   "previous_bundled_character_reference": {
     "path": "skills/monthly-salary-cat-illustrations/assets/character-reference.webp",
     "source_url": "https://codex-pets.net/assets/pets/v/1784284488125/monthly-salary-cat-fix/spritesheet.webp",
@@ -1055,7 +1265,9 @@
         ],
         "bytes": 107173,
         "sha256": "17048a0c9448432f7a00f007e4e60de2df0e3f09ca9b2f6893bb1e509ea06c5d",
-        "source_sha256": "d293e176ab192db7a5e25304b7cd993121b7847be79563e6ecf1b4dcad5e6620"
+        "source_sha256": "d293e176ab192db7a5e25304b7cd993121b7847be79563e6ecf1b4dcad5e6620",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/01-two-breakpoints.png",
+        "display_image": "examples/images/01-two-breakpoints.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/02-minimum-loop.jpg",
@@ -1066,7 +1278,9 @@
         ],
         "bytes": 109823,
         "sha256": "6594e4a4bd73f747640edac323124c91dda14a1fe7a1b83f152899702a078d7e",
-        "source_sha256": "388ee5726b2522e924018b064eb0d8dd92666ec5c11e79c64ad00389e42e149d"
+        "source_sha256": "388ee5726b2522e924018b064eb0d8dd92666ec5c11e79c64ad00389e42e149d",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/02-minimum-loop.png",
+        "display_image": "examples/images/02-minimum-loop.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/03-sort-by-purpose.jpg",
@@ -1077,7 +1291,9 @@
         ],
         "bytes": 100338,
         "sha256": "290f3d1fbfd39bbdbe5efaa8e0f08901a0befa94572504d85abb90edeb9e5a5b",
-        "source_sha256": "5ba9fdb658193c4293023b0cc63a9641d11beddf77e7cec583f4f9a332314527"
+        "source_sha256": "5ba9fdb658193c4293023b0cc63a9641d11beddf77e7cec583f4f9a332314527",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/03-sort-by-purpose.png",
+        "display_image": "examples/images/03-sort-by-purpose.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/04-one-source-many-uses.jpg",
@@ -1088,7 +1304,9 @@
         ],
         "bytes": 130989,
         "sha256": "53453fe2618073bee736fafd7b27461f3d800e7df0108fe3be708889eaab5787",
-        "source_sha256": "a49ea97872654ce2a47dfe46248b5159696eb096ce269e54643287127cb23be2"
+        "source_sha256": "a49ea97872654ce2a47dfe46248b5159696eb096ce269e54643287127cb23be2",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/04-one-source-many-uses.png",
+        "display_image": "examples/images/04-one-source-many-uses.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/05-handoff-path.jpg",
@@ -1099,7 +1317,9 @@
         ],
         "bytes": 86877,
         "sha256": "47320c4060caad9de26149922d540739552aef31ef49b5963c9d5e9906cd8c8e",
-        "source_sha256": "f311bc523d888cefffdb91592dd8cfb9f13632f258d3d78a84f1dbea8ab3acf2"
+        "source_sha256": "f311bc523d888cefffdb91592dd8cfb9f13632f258d3d78a84f1dbea8ab3acf2",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/05-handoff-path.png",
+        "display_image": "examples/images/05-handoff-path.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/06-three-sources.jpg",
@@ -1110,7 +1330,9 @@
         ],
         "bytes": 102445,
         "sha256": "2ccfd16f5f9d0236f8a1908529de3bf062edb126b69547cc21be120cddf26846",
-        "source_sha256": "6b7f1495429f21b6bef25e71f90b30348ced38201250296885b3637cbfeabcce"
+        "source_sha256": "6b7f1495429f21b6bef25e71f90b30348ced38201250296885b3637cbfeabcce",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/06-three-sources.png",
+        "display_image": "examples/images/06-three-sources.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/07-three-content-jobs.jpg",
@@ -1121,7 +1343,9 @@
         ],
         "bytes": 108550,
         "sha256": "51c264f21e56db3297785735e924b3405747dad70a46828f5d71063fc406ee69",
-        "source_sha256": "ac02563bda916c51c60e1e710a76174c45c309a68f20967ab4f15338ee0b356a"
+        "source_sha256": "ac02563bda916c51c60e1e710a76174c45c309a68f20967ab4f15338ee0b356a",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/07-three-content-jobs.png",
+        "display_image": "examples/images/07-three-content-jobs.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/08-reusable-toolbox.jpg",
@@ -1132,7 +1356,9 @@
         ],
         "bytes": 107244,
         "sha256": "1a1b089d26728b6bc4c53050688577b9bf008ef497245f69cf2b95926bc0f285",
-        "source_sha256": "db6e787b9e87d654179c6a5dd6e007800e294705a686fd447cf8523f3cb80949"
+        "source_sha256": "db6e787b9e87d654179c6a5dd6e007800e294705a686fd447cf8523f3cb80949",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/08-reusable-toolbox.png",
+        "display_image": "examples/images/08-reusable-toolbox.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/09-common-pits.jpg",
@@ -1143,7 +1369,9 @@
         ],
         "bytes": 107433,
         "sha256": "e6b66431f9a9ab7bfeb91e5f337749eaf51c1b3358e793e6676d1a3e8537e092",
-        "source_sha256": "6dbc4fb11882a313df280a9918a852ba6ed083442990fc6d303987816662f776"
+        "source_sha256": "6dbc4fb11882a313df280a9918a852ba6ed083442990fc6d303987816662f776",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/09-common-pits.png",
+        "display_image": "examples/images/09-common-pits.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/10-information-well.jpg",
@@ -1154,7 +1382,9 @@
         ],
         "bytes": 120605,
         "sha256": "bdc703b250c25cfdbf6b2c84fdea7346b1c6544aca472ce2a6ba554b3a998ad3",
-        "source_sha256": "85cf0ca339e39ff7a4a8efd8ccef33b52293b8ae3041ae6855531b0d0f4755c6"
+        "source_sha256": "85cf0ca339e39ff7a4a8efd8ccef33b52293b8ae3041ae6855531b0d0f4755c6",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/10-information-well.png",
+        "display_image": "examples/images/10-information-well.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/11-idea-press.jpg",
@@ -1165,7 +1395,9 @@
         ],
         "bytes": 87274,
         "sha256": "c3aaef49d19ad175ef603758f391df15cd22f956211c6a83e18d664a1d0a480c",
-        "source_sha256": "46d3591ad58a1bdda53c6f64102c7c1203b88ce16cb70a108d436f2a30bb5d9d"
+        "source_sha256": "46d3591ad58a1bdda53c6f64102c7c1203b88ce16cb70a108d436f2a30bb5d9d",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/11-idea-press.png",
+        "display_image": "examples/images/11-idea-press.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/12-content-fermentation.jpg",
@@ -1176,7 +1408,9 @@
         ],
         "bytes": 107946,
         "sha256": "0cba8bc199709bf564625363733305045ea784bde895d380bff731ed596ff764",
-        "source_sha256": "c9e5095ab6097564e9b6736ab8fbe3fb71bd2dc7ebc172298440c240dfe6ca75"
+        "source_sha256": "c9e5095ab6097564e9b6736ab8fbe3fb71bd2dc7ebc172298440c240dfe6ca75",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/12-content-fermentation.png",
+        "display_image": "examples/images/12-content-fermentation.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/13-system-bearing.jpg",
@@ -1187,7 +1421,9 @@
         ],
         "bytes": 116730,
         "sha256": "e2dfcd658252921d79501098b15a9e11598a43d7ae3afa1ec115d1b870368993",
-        "source_sha256": "c7d7ffac63d46b60cde35af11bd9ae4da57c54944901f014302309a3bcce0120"
+        "source_sha256": "c7d7ffac63d46b60cde35af11bd9ae4da57c54944901f014302309a3bcce0120",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/13-system-bearing.png",
+        "display_image": "examples/images/13-system-bearing.jpg"
       },
       {
         "path": "skills/monthly-salary-cat-illustrations/assets/examples/14-trust-bridge.jpg",
@@ -1198,10 +1434,17 @@
         ],
         "bytes": 93468,
         "sha256": "63b9f68be3ab75437a7b91ed32f81e30dcff1408bc411609cf36b8bb008ade98",
-        "source_sha256": "94ea980a7668a714bd5b1bfee4c22ac8891825b4f0ded2bf6458cf4c696e8c4b"
+        "source_sha256": "94ea980a7668a714bd5b1bfee4c22ac8891825b4f0ded2bf6458cf4c696e8c4b",
+        "source_url": "https://raw.githubusercontent.com/9Ashwin/monthly-salary-cat-illustrations/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images/14-trust-bridge.png",
+        "display_image": "examples/images/14-trust-bridge.jpg"
       }
     ],
-    "processing": "Original 192x208 RGBA frames copied without resampling or redrawing. Example previews exported as JPEG with longest edge 960 and quality 82; original PNGs retained under examples/images/.",
+    "processing": "Original 192x208 RGBA character frames are unchanged. The skill retains 960px JPEG previews exported from original PNGs. Root examples/images now contains separate 1280px JPEG display derivatives at quality 80. Original PNG paths and hashes refer to the pinned historical commit in original_png_archive.",
     "verification": "All four frames match original source pixels; 14 previews decode and match their named source. No image-generation rerun was performed."
+  },
+  "original_png_archive": {
+    "commit": "76efeff45dc4338d24e7197fbc4baa3f84395f4a",
+    "url": "https://github.com/9Ashwin/monthly-salary-cat-illustrations/tree/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images",
+    "note": "Per-case image, image_sha256, dimensions and original checks describe the original PNG at this historical commit. Current display derivatives are recorded separately in display_image; no image generation was rerun."
   }
 }

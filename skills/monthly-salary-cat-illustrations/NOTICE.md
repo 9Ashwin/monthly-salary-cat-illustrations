@@ -23,6 +23,6 @@
 
 默认只查看、传入 `front.png`，按当前姿态最多再加一张，不批量读取全部角色图。正常使用无需额外下载或安装宠物；需要其他原始动作时可从上述公开来源取得。
 
-`assets/examples/` 中的 14 张 JPEG 是本项目高清 PNG 配图的缩小预览，最长边为 960 像素，不是原作者发布的宠物动作帧。高清图保存在[仓库示例目录](https://github.com/9Ashwin/monthly-salary-cat-illustrations/tree/main/examples/images)，与预览的文件格式和字节内容不同。MIT 许可不授予对第三方角色、名称或原始素材的权利，示例不表示原作者授权或背书。
+`assets/examples/` 中的 14 张 JPEG 是本项目原始生成 PNG 的缩小预览，最长边为 960 像素，不是原作者发布的宠物动作帧。[仓库示例目录](https://github.com/9Ashwin/monthly-salary-cat-illustrations/tree/main/examples/images)提供最长边 1280 像素、质量参数 80 的 JPEG 展示图；[固定历史提交](https://github.com/9Ashwin/monthly-salary-cat-illustrations/tree/76efeff45dc4338d24e7197fbc4baa3f84395f4a/examples/images)保留原始 PNG。两组 JPEG 均由原图缩小、转码得到，没有重新生图。MIT 许可不授予对第三方角色、名称或原始素材的权利，示例不表示原作者授权或背书。
 
 完整来源记录见[项目 NOTICE](https://github.com/9Ashwin/monthly-salary-cat-illustrations/blob/main/NOTICE.md)，实际生成提示词见[示例文档](https://github.com/9Ashwin/monthly-salary-cat-illustrations/blob/main/examples/prompts.md)。
